@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35DCD7632A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */; };
+		35DCD7642A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */; };
+		35DCD7652A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */; };
+		35DCD7662A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7542A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf */; };
+		35DCD7672A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7542A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf */; };
+		35DCD7682A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7542A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf */; };
+		35DCD7692A734B2E000C0F7F /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7552A734B2E000C0F7F /* Nunito-ExtraBold.ttf */; };
+		35DCD76A2A734B2E000C0F7F /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7552A734B2E000C0F7F /* Nunito-ExtraBold.ttf */; };
+		35DCD76B2A734B2E000C0F7F /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7552A734B2E000C0F7F /* Nunito-ExtraBold.ttf */; };
+		35DCD76C2A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7562A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf */; };
+		35DCD76D2A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7562A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf */; };
+		35DCD76E2A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7562A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf */; };
+		35DCD76F2A734B2E000C0F7F /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7572A734B2E000C0F7F /* Nunito-Light.ttf */; };
+		35DCD7702A734B2E000C0F7F /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7572A734B2E000C0F7F /* Nunito-Light.ttf */; };
+		35DCD7712A734B2E000C0F7F /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7572A734B2E000C0F7F /* Nunito-Light.ttf */; };
+		35DCD7722A734B2E000C0F7F /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7582A734B2E000C0F7F /* Nunito-Regular.ttf */; };
+		35DCD7732A734B2E000C0F7F /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7582A734B2E000C0F7F /* Nunito-Regular.ttf */; };
+		35DCD7742A734B2E000C0F7F /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7582A734B2E000C0F7F /* Nunito-Regular.ttf */; };
+		35DCD7752A734B2E000C0F7F /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7592A734B2E000C0F7F /* Nunito-SemiBold.ttf */; };
+		35DCD7762A734B2E000C0F7F /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7592A734B2E000C0F7F /* Nunito-SemiBold.ttf */; };
+		35DCD7772A734B2E000C0F7F /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7592A734B2E000C0F7F /* Nunito-SemiBold.ttf */; };
+		35DCD7782A734B2E000C0F7F /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75A2A734B2E000C0F7F /* Nunito-Bold.ttf */; };
+		35DCD7792A734B2E000C0F7F /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75A2A734B2E000C0F7F /* Nunito-Bold.ttf */; };
+		35DCD77A2A734B2E000C0F7F /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75A2A734B2E000C0F7F /* Nunito-Bold.ttf */; };
+		35DCD77B2A734B2E000C0F7F /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75B2A734B2E000C0F7F /* Nunito-BoldItalic.ttf */; };
+		35DCD77C2A734B2E000C0F7F /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75B2A734B2E000C0F7F /* Nunito-BoldItalic.ttf */; };
+		35DCD77D2A734B2E000C0F7F /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75B2A734B2E000C0F7F /* Nunito-BoldItalic.ttf */; };
+		35DCD77E2A734B2E000C0F7F /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75C2A734B2E000C0F7F /* Nunito-Black.ttf */; };
+		35DCD77F2A734B2E000C0F7F /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75C2A734B2E000C0F7F /* Nunito-Black.ttf */; };
+		35DCD7802A734B2E000C0F7F /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75C2A734B2E000C0F7F /* Nunito-Black.ttf */; };
+		35DCD7812A734B2E000C0F7F /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75D2A734B2E000C0F7F /* Nunito-ExtraLight.ttf */; };
+		35DCD7822A734B2E000C0F7F /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75D2A734B2E000C0F7F /* Nunito-ExtraLight.ttf */; };
+		35DCD7832A734B2E000C0F7F /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75D2A734B2E000C0F7F /* Nunito-ExtraLight.ttf */; };
+		35DCD7842A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75E2A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf */; };
+		35DCD7852A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75E2A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf */; };
+		35DCD7862A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75E2A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf */; };
+		35DCD7872A734B2E000C0F7F /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75F2A734B2E000C0F7F /* Nunito-BlackItalic.ttf */; };
+		35DCD7882A734B2E000C0F7F /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75F2A734B2E000C0F7F /* Nunito-BlackItalic.ttf */; };
+		35DCD7892A734B2E000C0F7F /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD75F2A734B2E000C0F7F /* Nunito-BlackItalic.ttf */; };
+		35DCD78A2A734B2E000C0F7F /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7602A734B2E000C0F7F /* Nunito-Italic.ttf */; };
+		35DCD78B2A734B2E000C0F7F /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7602A734B2E000C0F7F /* Nunito-Italic.ttf */; };
+		35DCD78C2A734B2E000C0F7F /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7602A734B2E000C0F7F /* Nunito-Italic.ttf */; };
+		35DCD78D2A734B2E000C0F7F /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7612A734B2E000C0F7F /* Nunito-LightItalic.ttf */; };
+		35DCD78E2A734B2E000C0F7F /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7612A734B2E000C0F7F /* Nunito-LightItalic.ttf */; };
+		35DCD78F2A734B2E000C0F7F /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7612A734B2E000C0F7F /* Nunito-LightItalic.ttf */; };
+		35DCD7902A734B2E000C0F7F /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7622A734B2E000C0F7F /* Nunito-MediumItalic.ttf */; };
+		35DCD7912A734B2E000C0F7F /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7622A734B2E000C0F7F /* Nunito-MediumItalic.ttf */; };
+		35DCD7922A734B2E000C0F7F /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7622A734B2E000C0F7F /* Nunito-MediumItalic.ttf */; };
+		35DCD7942A73567A000C0F7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7932A73567A000C0F7F /* Localizable.strings */; };
+		35DCD7952A73567A000C0F7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7932A73567A000C0F7F /* Localizable.strings */; };
+		35DCD7962A73567A000C0F7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7932A73567A000C0F7F /* Localizable.strings */; };
+		35DCD7982A735A13000C0F7F /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7972A735A13000C0F7F /* SplashViewController.storyboard */; };
+		35DCD7992A735A13000C0F7F /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7972A735A13000C0F7F /* SplashViewController.storyboard */; };
+		35DCD79A2A735A13000C0F7F /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7972A735A13000C0F7F /* SplashViewController.storyboard */; };
+		35DCD79D2A735A26000C0F7F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD79C2A735A26000C0F7F /* SplashViewController.swift */; };
+		35DCD79E2A735A26000C0F7F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD79C2A735A26000C0F7F /* SplashViewController.swift */; };
+		35DCD79F2A735A26000C0F7F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD79C2A735A26000C0F7F /* SplashViewController.swift */; };
+		35DCD7A22A735B3F000C0F7F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7A12A735B3F000C0F7F /* BaseViewController.swift */; };
+		35DCD7A32A735B3F000C0F7F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7A12A735B3F000C0F7F /* BaseViewController.swift */; };
+		35DCD7A42A735B3F000C0F7F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7A12A735B3F000C0F7F /* BaseViewController.swift */; };
+		35DCD7A62A735CD2000C0F7F /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7A52A735CD2000C0F7F /* AppRouter.swift */; };
+		35DCD7A72A735CD2000C0F7F /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7A52A735CD2000C0F7F /* AppRouter.swift */; };
+		35DCD7A82A735CD2000C0F7F /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7A52A735CD2000C0F7F /* AppRouter.swift */; };
+		35DCD7AA2A735CE3000C0F7F /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7A92A735CE3000C0F7F /* AppViewController.swift */; };
+		35DCD7AB2A735CE3000C0F7F /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7A92A735CE3000C0F7F /* AppViewController.swift */; };
+		35DCD7AC2A735CE3000C0F7F /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7A92A735CE3000C0F7F /* AppViewController.swift */; };
+		35DCD7AE2A735D02000C0F7F /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7AD2A735D02000C0F7F /* SplashRouter.swift */; };
+		35DCD7AF2A735D02000C0F7F /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7AD2A735D02000C0F7F /* SplashRouter.swift */; };
+		35DCD7B02A735D02000C0F7F /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7AD2A735D02000C0F7F /* SplashRouter.swift */; };
+		35DCD7B22A735D23000C0F7F /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7B12A735D23000C0F7F /* SplashPresenter.swift */; };
+		35DCD7B32A735D23000C0F7F /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7B12A735D23000C0F7F /* SplashPresenter.swift */; };
+		35DCD7B42A735D23000C0F7F /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7B12A735D23000C0F7F /* SplashPresenter.swift */; };
+		35DCD7B62A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7B52A735DB9000C0F7F /* SplashScreenAssembly.swift */; };
+		35DCD7B72A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7B52A735DB9000C0F7F /* SplashScreenAssembly.swift */; };
+		35DCD7B82A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7B52A735DB9000C0F7F /* SplashScreenAssembly.swift */; };
+		35DCD7BB2A735E19000C0F7F /* NavigationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7BA2A735E19000C0F7F /* NavigationBuilder.swift */; };
+		35DCD7BC2A735E19000C0F7F /* NavigationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7BA2A735E19000C0F7F /* NavigationBuilder.swift */; };
+		35DCD7BD2A735E19000C0F7F /* NavigationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7BA2A735E19000C0F7F /* NavigationBuilder.swift */; };
+		35DCD7BF2A735E27000C0F7F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7BE2A735E27000C0F7F /* NavigationController.swift */; };
+		35DCD7C02A735E27000C0F7F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7BE2A735E27000C0F7F /* NavigationController.swift */; };
+		35DCD7C12A735E27000C0F7F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCD7BE2A735E27000C0F7F /* NavigationController.swift */; };
+		35F52A012A733FE000AEB98D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F52A002A733FE000AEB98D /* AppDelegate.swift */; };
+		35F52A032A733FE000AEB98D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F52A022A733FE000AEB98D /* SceneDelegate.swift */; };
+		35F52A0A2A733FE300AEB98D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F52A092A733FE300AEB98D /* Assets.xcassets */; };
+		35F52A0D2A733FE300AEB98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F52A0B2A733FE300AEB98D /* LaunchScreen.storyboard */; };
+		35F52A182A733FE300AEB98D /* TCBancomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F52A172A733FE300AEB98D /* TCBancomTests.swift */; };
+		35F52A222A733FE300AEB98D /* TCBancomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F52A212A733FE300AEB98D /* TCBancomUITests.swift */; };
+		35F52A242A733FE300AEB98D /* TCBancomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F52A232A733FE300AEB98D /* TCBancomUITestsLaunchTests.swift */; };
+		4E4087115D4173E4C98C7E13 /* Pods_TCBancomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D164815806DF55642BE92B /* Pods_TCBancomTests.framework */; };
+		B9E13C6558F672AB8B10C24A /* Pods_TCBancom_TCBancomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7FF6FD6B471B8D1C7A117C /* Pods_TCBancom_TCBancomUITests.framework */; };
+		BB08A55A7B975F7E5BF5E3D7 /* Pods_TCBancom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E739B7C53A67112A645DD5D /* Pods_TCBancom.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35F52A142A733FE300AEB98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F529F52A733FE000AEB98D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F529FC2A733FE000AEB98D;
+			remoteInfo = TCBancom;
+		};
+		35F52A1E2A733FE300AEB98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F529F52A733FE000AEB98D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F529FC2A733FE000AEB98D;
+			remoteInfo = TCBancom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14BA2FB0ACE7F893624E38E1 /* Pods-TCBancom-TCBancomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom-TCBancomUITests.debug.xcconfig"; path = "Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		35DCD7542A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		35DCD7552A734B2E000C0F7F /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		35DCD7562A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		35DCD7572A734B2E000C0F7F /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		35DCD7582A734B2E000C0F7F /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		35DCD7592A734B2E000C0F7F /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		35DCD75A2A734B2E000C0F7F /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		35DCD75B2A734B2E000C0F7F /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		35DCD75C2A734B2E000C0F7F /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		35DCD75D2A734B2E000C0F7F /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		35DCD75E2A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		35DCD75F2A734B2E000C0F7F /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		35DCD7602A734B2E000C0F7F /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		35DCD7612A734B2E000C0F7F /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		35DCD7622A734B2E000C0F7F /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
+		35DCD7932A73567A000C0F7F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		35DCD7972A735A13000C0F7F /* SplashViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashViewController.storyboard; sourceTree = "<group>"; };
+		35DCD79C2A735A26000C0F7F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		35DCD7A12A735B3F000C0F7F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		35DCD7A52A735CD2000C0F7F /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		35DCD7A92A735CE3000C0F7F /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		35DCD7AD2A735D02000C0F7F /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		35DCD7B12A735D23000C0F7F /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		35DCD7B52A735DB9000C0F7F /* SplashScreenAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenAssembly.swift; sourceTree = "<group>"; };
+		35DCD7BA2A735E19000C0F7F /* NavigationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBuilder.swift; sourceTree = "<group>"; };
+		35DCD7BE2A735E27000C0F7F /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		35F529FD2A733FE000AEB98D /* TCBancom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCBancom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F52A002A733FE000AEB98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35F52A022A733FE000AEB98D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35F52A092A733FE300AEB98D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35F52A0C2A733FE300AEB98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35F52A0E2A733FE300AEB98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F52A132A733FE300AEB98D /* TCBancomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCBancomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F52A172A733FE300AEB98D /* TCBancomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBancomTests.swift; sourceTree = "<group>"; };
+		35F52A1D2A733FE300AEB98D /* TCBancomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCBancomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F52A212A733FE300AEB98D /* TCBancomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBancomUITests.swift; sourceTree = "<group>"; };
+		35F52A232A733FE300AEB98D /* TCBancomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBancomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E739B7C53A67112A645DD5D /* Pods_TCBancom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBancom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64ED96E014646D0F2BFEE2B9 /* Pods-TCBancomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancomTests.debug.xcconfig"; path = "Target Support Files/Pods-TCBancomTests/Pods-TCBancomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82B66A04DED1D3E15908000E /* Pods-TCBancom-TCBancomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom-TCBancomUITests.release.xcconfig"; path = "Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		842570F7B8AD0F734330A544 /* Pods-TCBancom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom.release.xcconfig"; path = "Target Support Files/Pods-TCBancom/Pods-TCBancom.release.xcconfig"; sourceTree = "<group>"; };
+		88FBAF2013EC759BA36ED8BA /* Pods-TCBancom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom.debug.xcconfig"; path = "Target Support Files/Pods-TCBancom/Pods-TCBancom.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D164815806DF55642BE92B /* Pods_TCBancomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBancomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7FF6FD6B471B8D1C7A117C /* Pods_TCBancom_TCBancomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBancom_TCBancomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CB7A551C287FF5E7E65247 /* Pods-TCBancomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancomTests.release.xcconfig"; path = "Target Support Files/Pods-TCBancomTests/Pods-TCBancomTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35F529FA2A733FE000AEB98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB08A55A7B975F7E5BF5E3D7 /* Pods_TCBancom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F52A102A733FE300AEB98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4087115D4173E4C98C7E13 /* Pods_TCBancomTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F52A1A2A733FE300AEB98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E13C6558F672AB8B10C24A /* Pods_TCBancom_TCBancomUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35DCD74C2A73468F000C0F7F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				35DCD7B92A735E0C000C0F7F /* Navigation */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		35DCD74E2A7346AE000C0F7F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				35DCD7A02A735B33000C0F7F /* Base */,
+				35F52A002A733FE000AEB98D /* AppDelegate.swift */,
+				35F52A022A733FE000AEB98D /* SceneDelegate.swift */,
+				35F52A0B2A733FE300AEB98D /* LaunchScreen.storyboard */,
+				35DCD7932A73567A000C0F7F /* Localizable.strings */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		35DCD74F2A7346BF000C0F7F /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				35F52A0E2A733FE300AEB98D /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		35DCD7502A7346D2000C0F7F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				35DCD79B2A735A16000C0F7F /* Splash */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		35DCD7512A7346DA000C0F7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35F52A092A733FE300AEB98D /* Assets.xcassets */,
+				35DCD7522A734B2E000C0F7F /* Nunito */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		35DCD7522A734B2E000C0F7F /* Nunito */ = {
+			isa = PBXGroup;
+			children = (
+				35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */,
+				35DCD7542A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf */,
+				35DCD7552A734B2E000C0F7F /* Nunito-ExtraBold.ttf */,
+				35DCD7562A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf */,
+				35DCD7572A734B2E000C0F7F /* Nunito-Light.ttf */,
+				35DCD7582A734B2E000C0F7F /* Nunito-Regular.ttf */,
+				35DCD7592A734B2E000C0F7F /* Nunito-SemiBold.ttf */,
+				35DCD75A2A734B2E000C0F7F /* Nunito-Bold.ttf */,
+				35DCD75B2A734B2E000C0F7F /* Nunito-BoldItalic.ttf */,
+				35DCD75C2A734B2E000C0F7F /* Nunito-Black.ttf */,
+				35DCD75D2A734B2E000C0F7F /* Nunito-ExtraLight.ttf */,
+				35DCD75E2A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf */,
+				35DCD75F2A734B2E000C0F7F /* Nunito-BlackItalic.ttf */,
+				35DCD7602A734B2E000C0F7F /* Nunito-Italic.ttf */,
+				35DCD7612A734B2E000C0F7F /* Nunito-LightItalic.ttf */,
+				35DCD7622A734B2E000C0F7F /* Nunito-MediumItalic.ttf */,
+			);
+			path = Nunito;
+			sourceTree = "<group>";
+		};
+		35DCD79B2A735A16000C0F7F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				35DCD7972A735A13000C0F7F /* SplashViewController.storyboard */,
+				35DCD79C2A735A26000C0F7F /* SplashViewController.swift */,
+				35DCD7AD2A735D02000C0F7F /* SplashRouter.swift */,
+				35DCD7B12A735D23000C0F7F /* SplashPresenter.swift */,
+				35DCD7B52A735DB9000C0F7F /* SplashScreenAssembly.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		35DCD7A02A735B33000C0F7F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				35DCD7A12A735B3F000C0F7F /* BaseViewController.swift */,
+				35DCD7A52A735CD2000C0F7F /* AppRouter.swift */,
+				35DCD7A92A735CE3000C0F7F /* AppViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		35DCD7B92A735E0C000C0F7F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				35DCD7BA2A735E19000C0F7F /* NavigationBuilder.swift */,
+				35DCD7BE2A735E27000C0F7F /* NavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		35F529F42A733FE000AEB98D = {
+			isa = PBXGroup;
+			children = (
+				35F529FF2A733FE000AEB98D /* TCBancom */,
+				35F52A162A733FE300AEB98D /* TCBancomTests */,
+				35F52A202A733FE300AEB98D /* TCBancomUITests */,
+				35F529FE2A733FE000AEB98D /* Products */,
+				C7A9D5DADE601D48FF400AD1 /* Pods */,
+				B2D0AF334C617024D93C4023 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35F529FE2A733FE000AEB98D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35F529FD2A733FE000AEB98D /* TCBancom.app */,
+				35F52A132A733FE300AEB98D /* TCBancomTests.xctest */,
+				35F52A1D2A733FE300AEB98D /* TCBancomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35F529FF2A733FE000AEB98D /* TCBancom */ = {
+			isa = PBXGroup;
+			children = (
+				35DCD7512A7346DA000C0F7F /* Resources */,
+				35DCD7502A7346D2000C0F7F /* Features */,
+				35DCD74F2A7346BF000C0F7F /* Configurations */,
+				35DCD74E2A7346AE000C0F7F /* Application */,
+				35DCD74C2A73468F000C0F7F /* Utils */,
+			);
+			path = TCBancom;
+			sourceTree = "<group>";
+		};
+		35F52A162A733FE300AEB98D /* TCBancomTests */ = {
+			isa = PBXGroup;
+			children = (
+				35F52A172A733FE300AEB98D /* TCBancomTests.swift */,
+			);
+			path = TCBancomTests;
+			sourceTree = "<group>";
+		};
+		35F52A202A733FE300AEB98D /* TCBancomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35F52A212A733FE300AEB98D /* TCBancomUITests.swift */,
+				35F52A232A733FE300AEB98D /* TCBancomUITestsLaunchTests.swift */,
+			);
+			path = TCBancomUITests;
+			sourceTree = "<group>";
+		};
+		B2D0AF334C617024D93C4023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E739B7C53A67112A645DD5D /* Pods_TCBancom.framework */,
+				ED7FF6FD6B471B8D1C7A117C /* Pods_TCBancom_TCBancomUITests.framework */,
+				C0D164815806DF55642BE92B /* Pods_TCBancomTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7A9D5DADE601D48FF400AD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88FBAF2013EC759BA36ED8BA /* Pods-TCBancom.debug.xcconfig */,
+				842570F7B8AD0F734330A544 /* Pods-TCBancom.release.xcconfig */,
+				14BA2FB0ACE7F893624E38E1 /* Pods-TCBancom-TCBancomUITests.debug.xcconfig */,
+				82B66A04DED1D3E15908000E /* Pods-TCBancom-TCBancomUITests.release.xcconfig */,
+				64ED96E014646D0F2BFEE2B9 /* Pods-TCBancomTests.debug.xcconfig */,
+				F5CB7A551C287FF5E7E65247 /* Pods-TCBancomTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35F529FC2A733FE000AEB98D /* TCBancom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F52A272A733FE300AEB98D /* Build configuration list for PBXNativeTarget "TCBancom" */;
+			buildPhases = (
+				D2DFA1921416BDB6C9021A70 /* [CP] Check Pods Manifest.lock */,
+				35F529F92A733FE000AEB98D /* Sources */,
+				35F529FA2A733FE000AEB98D /* Frameworks */,
+				35F529FB2A733FE000AEB98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCBancom;
+			productName = TCBancom;
+			productReference = 35F529FD2A733FE000AEB98D /* TCBancom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35F52A122A733FE300AEB98D /* TCBancomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F52A2A2A733FE300AEB98D /* Build configuration list for PBXNativeTarget "TCBancomTests" */;
+			buildPhases = (
+				02D8459067ABAC7C7A58445E /* [CP] Check Pods Manifest.lock */,
+				35F52A0F2A733FE300AEB98D /* Sources */,
+				35F52A102A733FE300AEB98D /* Frameworks */,
+				35F52A112A733FE300AEB98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35F52A152A733FE300AEB98D /* PBXTargetDependency */,
+			);
+			name = TCBancomTests;
+			productName = TCBancomTests;
+			productReference = 35F52A132A733FE300AEB98D /* TCBancomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35F52A1C2A733FE300AEB98D /* TCBancomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F52A2D2A733FE300AEB98D /* Build configuration list for PBXNativeTarget "TCBancomUITests" */;
+			buildPhases = (
+				26A258BEC819C8AF409E9849 /* [CP] Check Pods Manifest.lock */,
+				35F52A192A733FE300AEB98D /* Sources */,
+				35F52A1A2A733FE300AEB98D /* Frameworks */,
+				35F52A1B2A733FE300AEB98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35F52A1F2A733FE300AEB98D /* PBXTargetDependency */,
+			);
+			name = TCBancomUITests;
+			productName = TCBancomUITests;
+			productReference = 35F52A1D2A733FE300AEB98D /* TCBancomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35F529F52A733FE000AEB98D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					35F529FC2A733FE000AEB98D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					35F52A122A733FE300AEB98D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 35F529FC2A733FE000AEB98D;
+					};
+					35F52A1C2A733FE300AEB98D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 35F529FC2A733FE000AEB98D;
+					};
+				};
+			};
+			buildConfigurationList = 35F529F82A733FE000AEB98D /* Build configuration list for PBXProject "TCBancom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35F529F42A733FE000AEB98D;
+			productRefGroup = 35F529FE2A733FE000AEB98D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35F529FC2A733FE000AEB98D /* TCBancom */,
+				35F52A122A733FE300AEB98D /* TCBancomTests */,
+				35F52A1C2A733FE300AEB98D /* TCBancomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35F529FB2A733FE000AEB98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DCD76C2A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf in Resources */,
+				35DCD7812A734B2E000C0F7F /* Nunito-ExtraLight.ttf in Resources */,
+				35DCD7632A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */,
+				35DCD7842A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf in Resources */,
+				35DCD7982A735A13000C0F7F /* SplashViewController.storyboard in Resources */,
+				35DCD78D2A734B2E000C0F7F /* Nunito-LightItalic.ttf in Resources */,
+				35DCD7942A73567A000C0F7F /* Localizable.strings in Resources */,
+				35DCD7662A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				35F52A0D2A733FE300AEB98D /* LaunchScreen.storyboard in Resources */,
+				35DCD7752A734B2E000C0F7F /* Nunito-SemiBold.ttf in Resources */,
+				35DCD7692A734B2E000C0F7F /* Nunito-ExtraBold.ttf in Resources */,
+				35DCD77B2A734B2E000C0F7F /* Nunito-BoldItalic.ttf in Resources */,
+				35DCD7782A734B2E000C0F7F /* Nunito-Bold.ttf in Resources */,
+				35F52A0A2A733FE300AEB98D /* Assets.xcassets in Resources */,
+				35DCD77E2A734B2E000C0F7F /* Nunito-Black.ttf in Resources */,
+				35DCD7722A734B2E000C0F7F /* Nunito-Regular.ttf in Resources */,
+				35DCD76F2A734B2E000C0F7F /* Nunito-Light.ttf in Resources */,
+				35DCD7902A734B2E000C0F7F /* Nunito-MediumItalic.ttf in Resources */,
+				35DCD7872A734B2E000C0F7F /* Nunito-BlackItalic.ttf in Resources */,
+				35DCD78A2A734B2E000C0F7F /* Nunito-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F52A112A733FE300AEB98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DCD7952A73567A000C0F7F /* Localizable.strings in Resources */,
+				35DCD7882A734B2E000C0F7F /* Nunito-BlackItalic.ttf in Resources */,
+				35DCD7852A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf in Resources */,
+				35DCD7762A734B2E000C0F7F /* Nunito-SemiBold.ttf in Resources */,
+				35DCD77F2A734B2E000C0F7F /* Nunito-Black.ttf in Resources */,
+				35DCD7912A734B2E000C0F7F /* Nunito-MediumItalic.ttf in Resources */,
+				35DCD7732A734B2E000C0F7F /* Nunito-Regular.ttf in Resources */,
+				35DCD78B2A734B2E000C0F7F /* Nunito-Italic.ttf in Resources */,
+				35DCD76A2A734B2E000C0F7F /* Nunito-ExtraBold.ttf in Resources */,
+				35DCD7822A734B2E000C0F7F /* Nunito-ExtraLight.ttf in Resources */,
+				35DCD77C2A734B2E000C0F7F /* Nunito-BoldItalic.ttf in Resources */,
+				35DCD7702A734B2E000C0F7F /* Nunito-Light.ttf in Resources */,
+				35DCD7642A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */,
+				35DCD7672A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				35DCD7792A734B2E000C0F7F /* Nunito-Bold.ttf in Resources */,
+				35DCD78E2A734B2E000C0F7F /* Nunito-LightItalic.ttf in Resources */,
+				35DCD7992A735A13000C0F7F /* SplashViewController.storyboard in Resources */,
+				35DCD76D2A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F52A1B2A733FE300AEB98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DCD7962A73567A000C0F7F /* Localizable.strings in Resources */,
+				35DCD7892A734B2E000C0F7F /* Nunito-BlackItalic.ttf in Resources */,
+				35DCD7862A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf in Resources */,
+				35DCD7772A734B2E000C0F7F /* Nunito-SemiBold.ttf in Resources */,
+				35DCD7802A734B2E000C0F7F /* Nunito-Black.ttf in Resources */,
+				35DCD7922A734B2E000C0F7F /* Nunito-MediumItalic.ttf in Resources */,
+				35DCD7742A734B2E000C0F7F /* Nunito-Regular.ttf in Resources */,
+				35DCD78C2A734B2E000C0F7F /* Nunito-Italic.ttf in Resources */,
+				35DCD76B2A734B2E000C0F7F /* Nunito-ExtraBold.ttf in Resources */,
+				35DCD7832A734B2E000C0F7F /* Nunito-ExtraLight.ttf in Resources */,
+				35DCD77D2A734B2E000C0F7F /* Nunito-BoldItalic.ttf in Resources */,
+				35DCD7712A734B2E000C0F7F /* Nunito-Light.ttf in Resources */,
+				35DCD7652A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */,
+				35DCD7682A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				35DCD77A2A734B2E000C0F7F /* Nunito-Bold.ttf in Resources */,
+				35DCD78F2A734B2E000C0F7F /* Nunito-LightItalic.ttf in Resources */,
+				35DCD79A2A735A13000C0F7F /* SplashViewController.storyboard in Resources */,
+				35DCD76E2A734B2E000C0F7F /* Nunito-ExtraLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02D8459067ABAC7C7A58445E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCBancomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26A258BEC819C8AF409E9849 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCBancom-TCBancomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2DFA1921416BDB6C9021A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCBancom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35F529F92A733FE000AEB98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DCD7BF2A735E27000C0F7F /* NavigationController.swift in Sources */,
+				35DCD7B62A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
+				35DCD7AA2A735CE3000C0F7F /* AppViewController.swift in Sources */,
+				35DCD79D2A735A26000C0F7F /* SplashViewController.swift in Sources */,
+				35DCD7AE2A735D02000C0F7F /* SplashRouter.swift in Sources */,
+				35DCD7B22A735D23000C0F7F /* SplashPresenter.swift in Sources */,
+				35DCD7A22A735B3F000C0F7F /* BaseViewController.swift in Sources */,
+				35F52A012A733FE000AEB98D /* AppDelegate.swift in Sources */,
+				35DCD7A62A735CD2000C0F7F /* AppRouter.swift in Sources */,
+				35F52A032A733FE000AEB98D /* SceneDelegate.swift in Sources */,
+				35DCD7BB2A735E19000C0F7F /* NavigationBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F52A0F2A733FE300AEB98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DCD7B72A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
+				35DCD7AB2A735CE3000C0F7F /* AppViewController.swift in Sources */,
+				35DCD7B32A735D23000C0F7F /* SplashPresenter.swift in Sources */,
+				35DCD7AF2A735D02000C0F7F /* SplashRouter.swift in Sources */,
+				35DCD7A72A735CD2000C0F7F /* AppRouter.swift in Sources */,
+				35DCD7BC2A735E19000C0F7F /* NavigationBuilder.swift in Sources */,
+				35F52A182A733FE300AEB98D /* TCBancomTests.swift in Sources */,
+				35DCD7C02A735E27000C0F7F /* NavigationController.swift in Sources */,
+				35DCD79E2A735A26000C0F7F /* SplashViewController.swift in Sources */,
+				35DCD7A32A735B3F000C0F7F /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F52A192A733FE300AEB98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DCD7C12A735E27000C0F7F /* NavigationController.swift in Sources */,
+				35DCD7B82A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
+				35DCD7AC2A735CE3000C0F7F /* AppViewController.swift in Sources */,
+				35DCD79F2A735A26000C0F7F /* SplashViewController.swift in Sources */,
+				35DCD7B02A735D02000C0F7F /* SplashRouter.swift in Sources */,
+				35DCD7B42A735D23000C0F7F /* SplashPresenter.swift in Sources */,
+				35DCD7A42A735B3F000C0F7F /* BaseViewController.swift in Sources */,
+				35F52A242A733FE300AEB98D /* TCBancomUITestsLaunchTests.swift in Sources */,
+				35DCD7A82A735CD2000C0F7F /* AppRouter.swift in Sources */,
+				35F52A222A733FE300AEB98D /* TCBancomUITests.swift in Sources */,
+				35DCD7BD2A735E19000C0F7F /* NavigationBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35F52A152A733FE300AEB98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35F529FC2A733FE000AEB98D /* TCBancom */;
+			targetProxy = 35F52A142A733FE300AEB98D /* PBXContainerItemProxy */;
+		};
+		35F52A1F2A733FE300AEB98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35F529FC2A733FE000AEB98D /* TCBancom */;
+			targetProxy = 35F52A1E2A733FE300AEB98D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35F52A0B2A733FE300AEB98D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35F52A0C2A733FE300AEB98D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35F52A252A733FE300AEB98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35F52A262A733FE300AEB98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35F52A282A733FE300AEB98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FBAF2013EC759BA36ED8BA /* Pods-TCBancom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5FPQ36H24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "${SRCROOT}/TCBancom/Configurations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashViewController;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		35F52A292A733FE300AEB98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842570F7B8AD0F734330A544 /* Pods-TCBancom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5FPQ36H24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "${SRCROOT}/TCBancom/Configurations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashViewController;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		35F52A2B2A733FE300AEB98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64ED96E014646D0F2BFEE2B9 /* Pods-TCBancomTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCBancom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCBancom";
+			};
+			name = Debug;
+		};
+		35F52A2C2A733FE300AEB98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CB7A551C287FF5E7E65247 /* Pods-TCBancomTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCBancom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCBancom";
+			};
+			name = Release;
+		};
+		35F52A2E2A733FE300AEB98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BA2FB0ACE7F893624E38E1 /* Pods-TCBancom-TCBancomUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCBancom;
+			};
+			name = Debug;
+		};
+		35F52A2F2A733FE300AEB98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B66A04DED1D3E15908000E /* Pods-TCBancom-TCBancomUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCBancom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35F529F82A733FE000AEB98D /* Build configuration list for PBXProject "TCBancom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F52A252A733FE300AEB98D /* Debug */,
+				35F52A262A733FE300AEB98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F52A272A733FE300AEB98D /* Build configuration list for PBXNativeTarget "TCBancom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F52A282A733FE300AEB98D /* Debug */,
+				35F52A292A733FE300AEB98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F52A2A2A733FE300AEB98D /* Build configuration list for PBXNativeTarget "TCBancomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F52A2B2A733FE300AEB98D /* Debug */,
+				35F52A2C2A733FE300AEB98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F52A2D2A733FE300AEB98D /* Build configuration list for PBXNativeTarget "TCBancomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F52A2E2A733FE300AEB98D /* Debug */,
+				35F52A2F2A733FE300AEB98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35F529F52A733FE000AEB98D /* Project object */;
+}
