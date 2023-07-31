@@ -9,16 +9,12 @@ import UIKit
 
 protocol SplashRouterProtocol: AnyObject {
     func startModule()
+    func routeToLogIn()
 }
 
 class SplashRouter {
     
-    private weak var appViewController: AppViewControllerProtocol?
     private weak var view: UIViewController?
-    
-    init(appViewController: AppViewControllerProtocol) {
-        self.appViewController = appViewController
-    }
     
     init(view: UIViewController) {
         self.view = view
@@ -28,7 +24,9 @@ class SplashRouter {
 extension SplashRouter: SplashRouterProtocol {
     
     func startModule() {
-        let navigationController = SplashScreenAssembly.buildNavigation(usingNavigationFactory: NavigationBuilder.build)
-        self.appViewController?.updateCurrent(to: navigationController)
+    }
+    
+    func routeToLogIn() {
+        
     }
 }

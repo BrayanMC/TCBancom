@@ -18,8 +18,8 @@ final class AppRouter {
     }
     
     private func startSplashScreenModule() {
-        let router: SplashRouterProtocol = SplashRouter(appViewController: self.appViewController)
-        router.startModule()
+        let navigationController = SplashScreenAssembly.buildNavigation(usingNavigationFactory: NavigationBuilder.build)
+        self.appViewController.updateCurrent(to: navigationController)
     }
 }
 
