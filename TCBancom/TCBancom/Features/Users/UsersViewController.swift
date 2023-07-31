@@ -43,10 +43,6 @@ class UsersViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setDelegates()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         self.presenter?.getUsers()
     }
     
