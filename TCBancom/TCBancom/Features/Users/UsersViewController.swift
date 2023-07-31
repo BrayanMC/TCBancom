@@ -43,6 +43,10 @@ class UsersViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setDelegates()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         self.presenter?.getUsers()
     }
     
@@ -163,8 +167,9 @@ extension UsersViewController: UITableViewDataSource {
         } else {
             let userSection = self.userSections[section]
             cell.setUpCell(userSection: userSection)
-            cell.tapped = { [weak self] (user) -> Void in
+            cell.createPost = { [weak self] (userId) -> Void in
                 guard self != nil else { return }
+                self?.presenter?.goToCreatePost(userId: userId)
             }
             cell.toggleSection = { [weak self] (userId) -> Void in
                 guard self != nil else { return }

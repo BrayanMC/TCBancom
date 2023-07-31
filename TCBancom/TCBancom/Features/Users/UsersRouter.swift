@@ -8,6 +8,7 @@
 import UIKit
 
 protocol UsersRouterProtocol: AnyObject {
+    func routeToCreatePost(userId: Int)
 }
 
 class UsersRouter {
@@ -24,4 +25,10 @@ class UsersRouter {
 }
 
 extension UsersRouter: UsersRouterProtocol {
+    
+    func routeToCreatePost(userId: Int) {
+        let viewData = CreatePostViewData(userId: userId)
+        let vc = CreatePostRouter(navigation: self.navigation).getViewController(viewData: viewData)
+        self.navigation.present(vc, animated: true)
+    }
 }

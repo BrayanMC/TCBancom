@@ -19,6 +19,8 @@ class UserViewCell: UITableViewHeaderFooterView {
     @IBOutlet weak var phoneNumberLabel: UILabel!
     @IBOutlet weak var loadingView: UIView!
     @IBOutlet weak var indicatorImageView: UIImageView!
+    @IBOutlet weak var indicatorView: UIView!
+    @IBOutlet weak var plusView: UIView!
     
     private var userId: Int = 0
     
@@ -30,14 +32,15 @@ class UserViewCell: UITableViewHeaderFooterView {
         super.awakeFromNib()
     }
     
-    var tapped: ((UserModel.GetUsers.User) -> Void)?
+    var createPost: ((Int) -> Void)?
     var toggleSection: ((Int) -> Void)?
     
     private func setLoadingView(showShimmer: Bool) {
         self.nameLabel.isShimmer(showShimmer)
         self.loadingView.isShimmer(showShimmer)
         self.loadingView.isHidden = !showShimmer
-        self.indicatorImageView.isHidden = showShimmer
+        self.indicatorView.isHidden = showShimmer
+        self.plusView.isHidden = showShimmer
         self.contentView.backgroundColor = showShimmer ? ColorManager.shared.gray0 : ColorManager.shared.gray30
      }
     
@@ -56,7 +59,11 @@ class UserViewCell: UITableViewHeaderFooterView {
         self.indicatorImageView.image = userSection.isExpand ? ImageManager.shared.icArrowUp : ImageManager.shared.icArrowDown
     }
     
-    @IBAction func handleSectionButton(_ sender: Any) {
+    @IBAction func handleSectionButtonTapped(_ sender: Any) {
         self.toggleSection?(self.userId)
+    }
+    
+    @IBAction func createPostButtonTapped(_ sender: Any) {
+        self.createPost?(self.userId)
     }
 }
