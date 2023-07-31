@@ -8,14 +8,14 @@
 import UIKit
 
 public protocol CustomTextFieldToolTipProtocol: AnyObject {
-    func toolTipTapped(id: String)
+    func toolTipTapped(id: Int)
 }
 
 public protocol CustomTextFieldValidTextProtocol: AnyObject {
-    func returnValue(valueReal: String, id: String)
+    func returnValue(valueReal: String, id: Int)
 }
 
 public protocol CustomTextFieldShouldChangeCharactersInProtocol: AnyObject {
-    func returnValue(text: String, id: String)
+    func returnValue(text: String, id: Int)
 }
 

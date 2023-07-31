@@ -8,7 +8,6 @@
 import UIKit
 
 protocol SplashRouterProtocol: AnyObject {
-    func startModule()
     func routeToLogIn()
 }
 
@@ -23,10 +22,9 @@ class SplashRouter {
 
 extension SplashRouter: SplashRouterProtocol {
     
-    func startModule() {
-    }
-    
     func routeToLogIn() {
-        
+        guard let navigation = self.view?.navigationController else { return }
+        let vc = LogInRouter(navigation: navigation).getViewController()
+        navigation.setViewControllers([vc], animated: true)
     }
 }

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AFF0262A778D7F0098E8E5 /* TimerApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0252A778D7F0098E8E5 /* TimerApplication.swift */; };
+		35AFF0272A778D7F0098E8E5 /* TimerApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0252A778D7F0098E8E5 /* TimerApplication.swift */; };
+		35AFF0282A778D7F0098E8E5 /* TimerApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0252A778D7F0098E8E5 /* TimerApplication.swift */; };
+		35AFF02E2A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF02D2A778EFF0098E8E5 /* UIApplication+Extensions.swift */; };
+		35AFF02F2A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF02D2A778EFF0098E8E5 /* UIApplication+Extensions.swift */; };
+		35AFF0302A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF02D2A778EFF0098E8E5 /* UIApplication+Extensions.swift */; };
 		35CD62722A76DE3500232CF8 /* LogInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD62712A76DE3500232CF8 /* LogInRouter.swift */; };
 		35CD62732A76DE3500232CF8 /* LogInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD62712A76DE3500232CF8 /* LogInRouter.swift */; };
 		35CD62742A76DE3500232CF8 /* LogInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD62712A76DE3500232CF8 /* LogInRouter.swift */; };
@@ -150,6 +156,8 @@
 
 /* Begin PBXFileReference section */
 		1FB92A0235BADE667CE6AA6B /* Pods-TCBancom-TCBancomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom-TCBancomUITests.release.xcconfig"; path = "Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		35AFF0252A778D7F0098E8E5 /* TimerApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApplication.swift; sourceTree = "<group>"; };
+		35AFF02D2A778EFF0098E8E5 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		35CD62712A76DE3500232CF8 /* LogInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInRouter.swift; sourceTree = "<group>"; };
 		35CD62752A76DE3F00232CF8 /* LogInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPresenter.swift; sourceTree = "<group>"; };
 		35CD62792A76DE5900232CF8 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +245,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35AFF02C2A778EF60098E8E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35AFF02D2A778EFF0098E8E5 /* UIApplication+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		35CD62702A76DE1F00232CF8 /* LogIn */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,7 +267,9 @@
 		35DCD74C2A73468F000C0F7F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				35AFF02C2A778EF60098E8E5 /* Extensions */,
 				35DCD7B92A735E0C000C0F7F /* Navigation */,
+				35AFF0252A778D7F0098E8E5 /* TimerApplication.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -725,10 +743,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				35DCD7BF2A735E27000C0F7F /* NavigationController.swift in Sources */,
+				35AFF0262A778D7F0098E8E5 /* TimerApplication.swift in Sources */,
 				35DCD7B62A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
 				35DCD7AA2A735CE3000C0F7F /* AppViewController.swift in Sources */,
 				35DCD79D2A735A26000C0F7F /* SplashViewController.swift in Sources */,
 				35DCD7AE2A735D02000C0F7F /* SplashRouter.swift in Sources */,
+				35AFF02E2A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */,
 				35DCD7B22A735D23000C0F7F /* SplashPresenter.swift in Sources */,
 				35CD62722A76DE3500232CF8 /* LogInRouter.swift in Sources */,
 				35DCD7A22A735B3F000C0F7F /* BaseViewController.swift in Sources */,
@@ -745,10 +765,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AFF0272A778D7F0098E8E5 /* TimerApplication.swift in Sources */,
 				35DCD7B72A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
 				35DCD7AB2A735CE3000C0F7F /* AppViewController.swift in Sources */,
 				35CD62732A76DE3500232CF8 /* LogInRouter.swift in Sources */,
 				35DCD7B32A735D23000C0F7F /* SplashPresenter.swift in Sources */,
+				35AFF02F2A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */,
 				35DCD7AF2A735D02000C0F7F /* SplashRouter.swift in Sources */,
 				35DCD7A72A735CD2000C0F7F /* AppRouter.swift in Sources */,
 				35CD627B2A76DE5900232CF8 /* LogInViewController.swift in Sources */,
@@ -766,10 +788,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				35DCD7C12A735E27000C0F7F /* NavigationController.swift in Sources */,
+				35AFF0282A778D7F0098E8E5 /* TimerApplication.swift in Sources */,
 				35DCD7B82A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
 				35DCD7AC2A735CE3000C0F7F /* AppViewController.swift in Sources */,
 				35DCD79F2A735A26000C0F7F /* SplashViewController.swift in Sources */,
 				35DCD7B02A735D02000C0F7F /* SplashRouter.swift in Sources */,
+				35AFF0302A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */,
 				35DCD7B42A735D23000C0F7F /* SplashPresenter.swift in Sources */,
 				35CD62742A76DE3500232CF8 /* LogInRouter.swift in Sources */,
 				35DCD7A42A735B3F000C0F7F /* BaseViewController.swift in Sources */,
@@ -934,6 +958,7 @@
 				DEVELOPMENT_TEAM = U5FPQ36H24;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "${SRCROOT}/TCBancom/Configurations/Info.plist";
+				INFOPLIST_KEY_NSPrincipalClass = TimerApplication;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = SplashViewController;
@@ -969,6 +994,7 @@
 				DEVELOPMENT_TEAM = U5FPQ36H24;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "${SRCROOT}/TCBancom/Configurations/Info.plist";
+				INFOPLIST_KEY_NSPrincipalClass = TimerApplication;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = SplashViewController;

@@ -17,11 +17,12 @@ class SplashViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.goToLogIn()
     }
     
     private func goToLogIn() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            self.presenter?.goToLogIn()
         }
     }
 }
