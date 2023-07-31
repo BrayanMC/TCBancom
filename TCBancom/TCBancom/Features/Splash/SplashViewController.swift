@@ -18,6 +18,12 @@ class SplashViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    private func goToLogIn() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            
+        }
+    }
 }
 
 extension SplashViewController: SplashScreenViewControllerProtocol {
