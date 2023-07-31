@@ -37,7 +37,6 @@ public class PostDataRepository: PostRepository {
         
         let url = URLBuilder()
             .urlBase()
-            .domain(.EMPTY)
             .path(.CREATE_POSTS)
             .build()
         
