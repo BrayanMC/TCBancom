@@ -39,6 +39,8 @@
 		35D255F62A77C1FF00C07E2F /* PostDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D255F42A77C1FF00C07E2F /* PostDataRepository.swift */; };
 		35D256012A77CB1400C07E2F /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D256002A77CB1400C07E2F /* LogUtil.swift */; };
 		35D256022A77CB1400C07E2F /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D256002A77CB1400C07E2F /* LogUtil.swift */; };
+		35D256052A77D47F00C07E2F /* UserCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D256042A77D47F00C07E2F /* UserCredentials.swift */; };
+		35D256062A77D47F00C07E2F /* UserCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D256042A77D47F00C07E2F /* UserCredentials.swift */; };
 		F746CE3BC8795516D254FF1E /* Pods_Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12947405C2594DF667C1A515 /* Pods_Data.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,7 @@
 		35D255F12A77BF8500C07E2F /* UserDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataRepository.swift; sourceTree = "<group>"; };
 		35D255F42A77C1FF00C07E2F /* PostDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataRepository.swift; sourceTree = "<group>"; };
 		35D256002A77CB1400C07E2F /* LogUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
+		35D256042A77D47F00C07E2F /* UserCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredentials.swift; sourceTree = "<group>"; };
 		639365AD0EBC8044B6192426 /* Pods-Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.debug.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.debug.xcconfig"; sourceTree = "<group>"; };
 		A6C4EE145CB33A3CE6E959AE /* Pods-Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.release.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,11 +151,8 @@
 		35D255B32A77B6EB00C07E2F /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				35D255E42A77BB2B00C07E2F /* UserData */,
-				35D255E32A77BB0F00C07E2F /* PostData */,
-				35D255B42A77B6EB00C07E2F /* RepositoryRemote+Extensions.swift */,
-				35D255B52A77B6EB00C07E2F /* RestApi.swift */,
-				35D255B62A77B6EB00C07E2F /* RepositoryRemote.swift */,
+				35D256072A77D48200C07E2F /* Remote */,
+				35D256032A77D47600C07E2F /* Local */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -187,6 +187,26 @@
 				35D255F12A77BF8500C07E2F /* UserDataRepository.swift */,
 			);
 			path = UserData;
+			sourceTree = "<group>";
+		};
+		35D256032A77D47600C07E2F /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				35D256042A77D47F00C07E2F /* UserCredentials.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		35D256072A77D48200C07E2F /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				35D255E42A77BB2B00C07E2F /* UserData */,
+				35D255E32A77BB0F00C07E2F /* PostData */,
+				35D255B42A77B6EB00C07E2F /* RepositoryRemote+Extensions.swift */,
+				35D255B52A77B6EB00C07E2F /* RestApi.swift */,
+				35D255B62A77B6EB00C07E2F /* RepositoryRemote.swift */,
+			);
+			path = Remote;
 			sourceTree = "<group>";
 		};
 		ED3D708B2D2486713BCA977F /* Pods */ = {
@@ -348,6 +368,7 @@
 				35D255C22A77B6EB00C07E2F /* RepositoryRemote.swift in Sources */,
 				35D255CA2A77B6EB00C07E2F /* Headers.swift in Sources */,
 				35D255F52A77C1FF00C07E2F /* PostDataRepository.swift in Sources */,
+				35D256052A77D47F00C07E2F /* UserCredentials.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +389,7 @@
 				35D255C52A77B6EB00C07E2F /* Environment.swift in Sources */,
 				35D255C72A77B6EB00C07E2F /* UtilJSON.swift in Sources */,
 				35D255F62A77C1FF00C07E2F /* PostDataRepository.swift in Sources */,
+				35D256062A77D47F00C07E2F /* UserCredentials.swift in Sources */,
 				35D255EA2A77BB9600C07E2F /* PostResponse.swift in Sources */,
 				35D255E72A77BB8F00C07E2F /* UserResponse.swift in Sources */,
 			);

@@ -13,6 +13,9 @@ protocol LogInViewControllerProtocol: ViewProtocol {
     var presenter: LogInPresenter? { get }
     func showError(message: String, fieldId: Int)
     func hideError(fieldId: Int)
+    func getEmail() -> String
+    func showEmailFromKeychain(email: String)
+    func saveEmailIsChecked() -> Bool
 }
 
 extension LogInViewController {
@@ -37,6 +40,7 @@ class LogInViewController: BaseViewController {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
         self.setUpView()
+        self.presenter?.validateIsEmailIsInKeychain()
     }
     
     private func setUpView() {
@@ -111,5 +115,18 @@ extension LogInViewController: LogInViewControllerProtocol {
         default:
             break
         }
+    }
+    
+    func getEmail() -> String {
+        self.emailCustomTextField.getTextValue()
+    }
+    
+    func showEmailFromKeychain(email: String) {
+        self.emailCustomTextField.setTextValue(text: email)
+        self.rememberEmailCheckButton.isChecked = true
+    }
+    
+    func saveEmailIsChecked() -> Bool {
+        self.rememberEmailCheckButton.getIsChecked()
     }
 }

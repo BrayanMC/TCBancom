@@ -16,7 +16,7 @@ def tcbancompods
 end
 
 def sharedpods
-  pod 'SwiftKeychainWrapper'
+  pod 'KeychainAccess'
 end
 
 # Pods for Common
