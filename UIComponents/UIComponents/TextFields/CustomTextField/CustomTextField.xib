@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTextField" customModule="UIComponents" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="UyI-D9-5fU" id="tJl-cf-8SN"/>
+                <outlet property="floatingLabel" destination="91x-Qf-g5e" id="5cK-Zt-83P"/>
+                <outlet property="helperTextLabel" destination="KIF-KJ-OsP" id="ZK5-36-SgE"/>
+                <outlet property="textField" destination="WCF-DF-wvL" id="xpG-51-CUI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="UyI-D9-5fU">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eRf-n5-Gha">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91x-Qf-g5e">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="mPp-Ch-iVy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                            <color key="textColor" name="FloatingLabel"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WCF-DF-wvL">
+                            <rect key="frame" x="0.0" y="18" width="414" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="4GP-3P-0ns"/>
+                            </constraints>
+                            <color key="textColor" name="Text"/>
+                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="setBorderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="setBorderColor">
+                                    <color key="value" name="Border"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="setCornerRadius">
+                                    <real key="value" value="12"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="customTextFieldChanged:" destination="-1" eventType="editingChanged" id="7P7-7R-hge"/>
+                            </connections>
+                        </textField>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIF-KJ-OsP">
+                            <rect key="frame" x="0.0" y="61" width="414" height="12"/>
+                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="10"/>
+                            <color key="textColor" name="Error"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="KIF-KJ-OsP" secondAttribute="bottom" id="6JZ-dl-a6U"/>
+                        <constraint firstItem="91x-Qf-g5e" firstAttribute="leading" secondItem="eRf-n5-Gha" secondAttribute="leading" id="9rr-4Q-Wre"/>
+                        <constraint firstItem="WCF-DF-wvL" firstAttribute="top" secondItem="91x-Qf-g5e" secondAttribute="bottom" constant="6" id="Hbe-hv-Dyr"/>
+                        <constraint firstAttribute="trailing" secondItem="91x-Qf-g5e" secondAttribute="trailing" id="IJb-2H-e0s"/>
+                        <constraint firstItem="KIF-KJ-OsP" firstAttribute="top" secondItem="WCF-DF-wvL" secondAttribute="bottom" constant="3" id="ZmD-BT-wAk"/>
+                        <constraint firstItem="KIF-KJ-OsP" firstAttribute="leading" secondItem="eRf-n5-Gha" secondAttribute="leading" id="bXc-Qa-qAi"/>
+                        <constraint firstAttribute="trailing" secondItem="KIF-KJ-OsP" secondAttribute="trailing" id="cXn-uH-zLg"/>
+                        <constraint firstAttribute="trailing" secondItem="WCF-DF-wvL" secondAttribute="trailing" id="fXh-En-rAd"/>
+                        <constraint firstItem="91x-Qf-g5e" firstAttribute="top" secondItem="eRf-n5-Gha" secondAttribute="top" id="od7-hB-94L"/>
+                        <constraint firstItem="WCF-DF-wvL" firstAttribute="leading" secondItem="eRf-n5-Gha" secondAttribute="leading" id="rLQ-Cf-kc9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="eRf-n5-Gha" secondAttribute="bottom" id="RJQ-1S-iwz"/>
+                <constraint firstItem="eRf-n5-Gha" firstAttribute="top" secondItem="UyI-D9-5fU" secondAttribute="top" id="mTt-Xe-8e2"/>
+                <constraint firstItem="eRf-n5-Gha" firstAttribute="leading" secondItem="UyI-D9-5fU" secondAttribute="leading" id="v7l-mj-X7R"/>
+                <constraint firstAttribute="trailing" secondItem="eRf-n5-Gha" secondAttribute="trailing" id="vX1-kE-gsK"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="134.78260869565219" y="187.5"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Border">
+            <color red="0.23899999260902405" green="0.40000000596046448" blue="0.43900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Error">
+            <color red="0.86699998378753662" green="0.16899999976158142" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="FloatingLabel">
+            <color red="0.57999998331069946" green="0.68599998950958252" blue="0.71399998664855957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text">
+            <color red="0.23899999260902405" green="0.40000000596046448" blue="0.43900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

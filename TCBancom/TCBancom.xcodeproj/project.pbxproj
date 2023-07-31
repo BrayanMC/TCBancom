@@ -19,10 +19,10 @@
 		35CD627E2A76DE7100232CF8 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CD627D2A76DE7100232CF8 /* LogInViewController.xib */; };
 		35CD627F2A76DE7100232CF8 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CD627D2A76DE7100232CF8 /* LogInViewController.xib */; };
 		35CD62802A76DE7100232CF8 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CD627D2A76DE7100232CF8 /* LogInViewController.xib */; };
-		35CD63962A77422C00232CF8 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63952A77422C00232CF8 /* Common.framework */; };
-		35CD63972A77422C00232CF8 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63952A77422C00232CF8 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		35CD63CD2A77427400232CF8 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63CC2A77427400232CF8 /* UIComponents.framework */; };
-		35CD63CE2A77427400232CF8 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63CC2A77427400232CF8 /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35D4D2C52A77653500D66299 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C42A77653500D66299 /* UIComponents.framework */; };
+		35D4D2C62A77653500D66299 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C42A77653500D66299 /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35D4D2C82A77665700D66299 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C72A77665700D66299 /* Common.framework */; };
+		35D4D2C92A77665700D66299 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C72A77665700D66299 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35DCD7632A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */; };
 		35DCD7642A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */; };
 		35DCD7652A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */; };
@@ -111,9 +111,9 @@
 		35F52A182A733FE300AEB98D /* TCBancomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F52A172A733FE300AEB98D /* TCBancomTests.swift */; };
 		35F52A222A733FE300AEB98D /* TCBancomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F52A212A733FE300AEB98D /* TCBancomUITests.swift */; };
 		35F52A242A733FE300AEB98D /* TCBancomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F52A232A733FE300AEB98D /* TCBancomUITestsLaunchTests.swift */; };
-		4E4087115D4173E4C98C7E13 /* Pods_TCBancomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D164815806DF55642BE92B /* Pods_TCBancomTests.framework */; };
-		B9E13C6558F672AB8B10C24A /* Pods_TCBancom_TCBancomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7FF6FD6B471B8D1C7A117C /* Pods_TCBancom_TCBancomUITests.framework */; };
-		BB08A55A7B975F7E5BF5E3D7 /* Pods_TCBancom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E739B7C53A67112A645DD5D /* Pods_TCBancom.framework */; };
+		AD3FB57128BE63562700308A /* Pods_TCBancomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA936AFF86FD91095A60E379 /* Pods_TCBancomTests.framework */; };
+		B5623BC00DA756866ECFA8B2 /* Pods_TCBancom_TCBancomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D970771638EDF5B4BBBF5C87 /* Pods_TCBancom_TCBancomUITests.framework */; };
+		FECB2866288AB8DE137E5269 /* Pods_TCBancom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEAA0864B8FE40C424EABFF /* Pods_TCBancom.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,8 +140,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				35CD63CE2A77427400232CF8 /* UIComponents.framework in Embed Frameworks */,
-				35CD63972A77422C00232CF8 /* Common.framework in Embed Frameworks */,
+				35D4D2C62A77653500D66299 /* UIComponents.framework in Embed Frameworks */,
+				35D4D2C92A77665700D66299 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,7 +149,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		14BA2FB0ACE7F893624E38E1 /* Pods-TCBancom-TCBancomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom-TCBancomUITests.debug.xcconfig"; path = "Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FB92A0235BADE667CE6AA6B /* Pods-TCBancom-TCBancomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom-TCBancomUITests.release.xcconfig"; path = "Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests.release.xcconfig"; sourceTree = "<group>"; };
 		35CD62712A76DE3500232CF8 /* LogInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInRouter.swift; sourceTree = "<group>"; };
 		35CD62752A76DE3F00232CF8 /* LogInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPresenter.swift; sourceTree = "<group>"; };
 		35CD62792A76DE5900232CF8 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +157,8 @@
 		35CD62D22A772C5900232CF8 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CD63952A77422C00232CF8 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CD63CC2A77427400232CF8 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D4D2C42A77653500D66299 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D4D2C72A77665700D66299 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
 		35DCD7542A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		35DCD7552A734B2E000C0F7F /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -195,14 +197,14 @@
 		35F52A1D2A733FE300AEB98D /* TCBancomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCBancomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F52A212A733FE300AEB98D /* TCBancomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBancomUITests.swift; sourceTree = "<group>"; };
 		35F52A232A733FE300AEB98D /* TCBancomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBancomUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3E739B7C53A67112A645DD5D /* Pods_TCBancom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBancom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64ED96E014646D0F2BFEE2B9 /* Pods-TCBancomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancomTests.debug.xcconfig"; path = "Target Support Files/Pods-TCBancomTests/Pods-TCBancomTests.debug.xcconfig"; sourceTree = "<group>"; };
-		82B66A04DED1D3E15908000E /* Pods-TCBancom-TCBancomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom-TCBancomUITests.release.xcconfig"; path = "Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests.release.xcconfig"; sourceTree = "<group>"; };
-		842570F7B8AD0F734330A544 /* Pods-TCBancom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom.release.xcconfig"; path = "Target Support Files/Pods-TCBancom/Pods-TCBancom.release.xcconfig"; sourceTree = "<group>"; };
-		88FBAF2013EC759BA36ED8BA /* Pods-TCBancom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom.debug.xcconfig"; path = "Target Support Files/Pods-TCBancom/Pods-TCBancom.debug.xcconfig"; sourceTree = "<group>"; };
-		C0D164815806DF55642BE92B /* Pods_TCBancomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBancomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED7FF6FD6B471B8D1C7A117C /* Pods_TCBancom_TCBancomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBancom_TCBancomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5CB7A551C287FF5E7E65247 /* Pods-TCBancomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancomTests.release.xcconfig"; path = "Target Support Files/Pods-TCBancomTests/Pods-TCBancomTests.release.xcconfig"; sourceTree = "<group>"; };
+		51C6301B534466F99A2AF76A /* Pods-TCBancomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancomTests.debug.xcconfig"; path = "Target Support Files/Pods-TCBancomTests/Pods-TCBancomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BEAA0864B8FE40C424EABFF /* Pods_TCBancom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBancom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BEDCDB5518512ED49A7A6B7 /* Pods-TCBancom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom.release.xcconfig"; path = "Target Support Files/Pods-TCBancom/Pods-TCBancom.release.xcconfig"; sourceTree = "<group>"; };
+		BA936AFF86FD91095A60E379 /* Pods_TCBancomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBancomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C21971A08BC35101DA6D07 /* Pods-TCBancom-TCBancomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom-TCBancomUITests.debug.xcconfig"; path = "Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D970771638EDF5B4BBBF5C87 /* Pods_TCBancom_TCBancomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBancom_TCBancomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E173C7CA5735224DB6F5320E /* Pods-TCBancom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom.debug.xcconfig"; path = "Target Support Files/Pods-TCBancom/Pods-TCBancom.debug.xcconfig"; sourceTree = "<group>"; };
+		F73E5C0C451AE9C593584584 /* Pods-TCBancomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancomTests.release.xcconfig"; path = "Target Support Files/Pods-TCBancomTests/Pods-TCBancomTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,9 +212,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB08A55A7B975F7E5BF5E3D7 /* Pods_TCBancom.framework in Frameworks */,
-				35CD63CD2A77427400232CF8 /* UIComponents.framework in Frameworks */,
-				35CD63962A77422C00232CF8 /* Common.framework in Frameworks */,
+				35D4D2C82A77665700D66299 /* Common.framework in Frameworks */,
+				35D4D2C52A77653500D66299 /* UIComponents.framework in Frameworks */,
+				FECB2866288AB8DE137E5269 /* Pods_TCBancom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4087115D4173E4C98C7E13 /* Pods_TCBancomTests.framework in Frameworks */,
+				AD3FB57128BE63562700308A /* Pods_TCBancomTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E13C6558F672AB8B10C24A /* Pods_TCBancom_TCBancomUITests.framework in Frameworks */,
+				B5623BC00DA756866ECFA8B2 /* Pods_TCBancom_TCBancomUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,8 +355,8 @@
 				35F52A162A733FE300AEB98D /* TCBancomTests */,
 				35F52A202A733FE300AEB98D /* TCBancomUITests */,
 				35F529FE2A733FE000AEB98D /* Products */,
-				C7A9D5DADE601D48FF400AD1 /* Pods */,
 				B2D0AF334C617024D93C4023 /* Frameworks */,
+				3BE517D05F6CF2A5B38BE0F8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -397,31 +399,33 @@
 			path = TCBancomUITests;
 			sourceTree = "<group>";
 		};
-		B2D0AF334C617024D93C4023 /* Frameworks */ = {
+		3BE517D05F6CF2A5B38BE0F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35CD63CC2A77427400232CF8 /* UIComponents.framework */,
-				35CD63952A77422C00232CF8 /* Common.framework */,
-				35CD62D22A772C5900232CF8 /* UIComponents.framework */,
-				3E739B7C53A67112A645DD5D /* Pods_TCBancom.framework */,
-				ED7FF6FD6B471B8D1C7A117C /* Pods_TCBancom_TCBancomUITests.framework */,
-				C0D164815806DF55642BE92B /* Pods_TCBancomTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C7A9D5DADE601D48FF400AD1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				88FBAF2013EC759BA36ED8BA /* Pods-TCBancom.debug.xcconfig */,
-				842570F7B8AD0F734330A544 /* Pods-TCBancom.release.xcconfig */,
-				14BA2FB0ACE7F893624E38E1 /* Pods-TCBancom-TCBancomUITests.debug.xcconfig */,
-				82B66A04DED1D3E15908000E /* Pods-TCBancom-TCBancomUITests.release.xcconfig */,
-				64ED96E014646D0F2BFEE2B9 /* Pods-TCBancomTests.debug.xcconfig */,
-				F5CB7A551C287FF5E7E65247 /* Pods-TCBancomTests.release.xcconfig */,
+				E173C7CA5735224DB6F5320E /* Pods-TCBancom.debug.xcconfig */,
+				9BEDCDB5518512ED49A7A6B7 /* Pods-TCBancom.release.xcconfig */,
+				D3C21971A08BC35101DA6D07 /* Pods-TCBancom-TCBancomUITests.debug.xcconfig */,
+				1FB92A0235BADE667CE6AA6B /* Pods-TCBancom-TCBancomUITests.release.xcconfig */,
+				51C6301B534466F99A2AF76A /* Pods-TCBancomTests.debug.xcconfig */,
+				F73E5C0C451AE9C593584584 /* Pods-TCBancomTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		B2D0AF334C617024D93C4023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35D4D2C72A77665700D66299 /* Common.framework */,
+				35D4D2C42A77653500D66299 /* UIComponents.framework */,
+				35CD63CC2A77427400232CF8 /* UIComponents.framework */,
+				35CD63952A77422C00232CF8 /* Common.framework */,
+				35CD62D22A772C5900232CF8 /* UIComponents.framework */,
+				7BEAA0864B8FE40C424EABFF /* Pods_TCBancom.framework */,
+				D970771638EDF5B4BBBF5C87 /* Pods_TCBancom_TCBancomUITests.framework */,
+				BA936AFF86FD91095A60E379 /* Pods_TCBancomTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,11 +435,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35F52A272A733FE300AEB98D /* Build configuration list for PBXNativeTarget "TCBancom" */;
 			buildPhases = (
-				D2DFA1921416BDB6C9021A70 /* [CP] Check Pods Manifest.lock */,
+				7E2F9EB2F44D5DCC769A1562 /* [CP] Check Pods Manifest.lock */,
 				35F529F92A733FE000AEB98D /* Sources */,
 				35F529FA2A733FE000AEB98D /* Frameworks */,
 				35F529FB2A733FE000AEB98D /* Resources */,
 				35CD63982A77422C00232CF8 /* Embed Frameworks */,
+				E15B4D19B57B871EC60AEDB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -450,7 +455,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35F52A2A2A733FE300AEB98D /* Build configuration list for PBXNativeTarget "TCBancomTests" */;
 			buildPhases = (
-				02D8459067ABAC7C7A58445E /* [CP] Check Pods Manifest.lock */,
+				E41394864F50004DED1F14DE /* [CP] Check Pods Manifest.lock */,
 				35F52A0F2A733FE300AEB98D /* Sources */,
 				35F52A102A733FE300AEB98D /* Frameworks */,
 				35F52A112A733FE300AEB98D /* Resources */,
@@ -469,10 +474,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35F52A2D2A733FE300AEB98D /* Build configuration list for PBXNativeTarget "TCBancomUITests" */;
 			buildPhases = (
-				26A258BEC819C8AF409E9849 /* [CP] Check Pods Manifest.lock */,
+				3DD901738293822C832D936D /* [CP] Check Pods Manifest.lock */,
 				35F52A192A733FE300AEB98D /* Sources */,
 				35F52A1A2A733FE300AEB98D /* Frameworks */,
 				35F52A1B2A733FE300AEB98D /* Resources */,
+				19399F54338204BEA9473B9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -611,29 +617,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02D8459067ABAC7C7A58445E /* [CP] Check Pods Manifest.lock */ = {
+		19399F54338204BEA9473B9F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TCBancomTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		26A258BEC819C8AF409E9849 /* [CP] Check Pods Manifest.lock */ = {
+		3DD901738293822C832D936D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -655,7 +656,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2DFA1921416BDB6C9021A70 /* [CP] Check Pods Manifest.lock */ = {
+		7E2F9EB2F44D5DCC769A1562 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -671,6 +672,45 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TCBancom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15B4D19B57B871EC60AEDB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCBancom/Pods-TCBancom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCBancom/Pods-TCBancom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCBancom/Pods-TCBancom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E41394864F50004DED1F14DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCBancomTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -885,7 +925,7 @@
 		};
 		35F52A282A733FE300AEB98D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88FBAF2013EC759BA36ED8BA /* Pods-TCBancom.debug.xcconfig */;
+			baseConfigurationReference = E173C7CA5735224DB6F5320E /* Pods-TCBancom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -920,7 +960,7 @@
 		};
 		35F52A292A733FE300AEB98D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 842570F7B8AD0F734330A544 /* Pods-TCBancom.release.xcconfig */;
+			baseConfigurationReference = 9BEDCDB5518512ED49A7A6B7 /* Pods-TCBancom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -955,7 +995,7 @@
 		};
 		35F52A2B2A733FE300AEB98D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64ED96E014646D0F2BFEE2B9 /* Pods-TCBancomTests.debug.xcconfig */;
+			baseConfigurationReference = 51C6301B534466F99A2AF76A /* Pods-TCBancomTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -966,16 +1006,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCBancom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCBancom";
 			};
 			name = Debug;
 		};
 		35F52A2C2A733FE300AEB98D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5CB7A551C287FF5E7E65247 /* Pods-TCBancomTests.release.xcconfig */;
+			baseConfigurationReference = F73E5C0C451AE9C593584584 /* Pods-TCBancomTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -986,16 +1029,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCBancom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCBancom";
 			};
 			name = Release;
 		};
 		35F52A2E2A733FE300AEB98D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14BA2FB0ACE7F893624E38E1 /* Pods-TCBancom-TCBancomUITests.debug.xcconfig */;
+			baseConfigurationReference = D3C21971A08BC35101DA6D07 /* Pods-TCBancom-TCBancomUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1004,16 +1050,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = TCBancom;
 			};
 			name = Debug;
 		};
 		35F52A2F2A733FE300AEB98D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82B66A04DED1D3E15908000E /* Pods-TCBancom-TCBancomUITests.release.xcconfig */;
+			baseConfigurationReference = 1FB92A0235BADE667CE6AA6B /* Pods-TCBancom-TCBancomUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1022,9 +1071,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.TCBancomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = TCBancom;
 			};
 			name = Release;

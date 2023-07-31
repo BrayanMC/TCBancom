@@ -74,15 +74,15 @@ public class CustomButton: UIButton {
         self.titleLabel?.font = UIFont.nunitoBold16
         self.titleLabel?.textColor = ColorManager.shared.gray0
         self.titleLabel?.tintColor = ColorManager.shared.gray0
-        self.backgroundColor = ColorManager.shared.rojoUPC
+        self.backgroundColor = ColorManager.shared.red100
     }
 
     public func setSecondaryButton() {
         self.titleLabel?.font = UIFont.nunitoBold16
-        self.titleLabel?.textColor = ColorManager.shared.rojoUPC
-        self.titleLabel?.tintColor = ColorManager.shared.rojoUPC
+        self.titleLabel?.textColor = ColorManager.shared.red100
+        self.titleLabel?.tintColor = ColorManager.shared.red100
         self.backgroundColor = ColorManager.shared.gray0
-        self.setBorderColor = ColorManager.shared.rojoUPC
+        self.setBorderColor = ColorManager.shared.red100
         self.setBorderWidth = 2.0
     }
 }
