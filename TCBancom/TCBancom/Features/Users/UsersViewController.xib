@@ -34,7 +34,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpq-Zn-qX4">
-                                    <rect key="frame" x="16" y="80" width="343" height="28"/>
+                                    <rect key="frame" x="16" y="40" width="343" height="28"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="28" id="eQq-cq-gtl"/>
                                     </constraints>
@@ -43,7 +43,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="TDE-v7-2vH">
-                                    <rect key="frame" x="20" y="120" width="335" height="527"/>
+                                    <rect key="frame" x="16" y="80" width="343" height="567"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="137" id="1vN-TF-Vg3"/>
@@ -51,13 +51,13 @@
                                 </tableView>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="TDE-v7-2vH" secondAttribute="trailing" constant="20" id="H7N-q4-MI9"/>
+                                <constraint firstAttribute="trailing" secondItem="TDE-v7-2vH" secondAttribute="trailing" constant="16" id="H7N-q4-MI9"/>
                                 <constraint firstItem="TDE-v7-2vH" firstAttribute="top" secondItem="zpq-Zn-qX4" secondAttribute="bottom" constant="12" id="Kej-F2-iYG"/>
-                                <constraint firstItem="zpq-Zn-qX4" firstAttribute="top" secondItem="dKY-rT-eZM" secondAttribute="top" constant="80" id="MnP-Fs-hV6"/>
+                                <constraint firstItem="zpq-Zn-qX4" firstAttribute="top" secondItem="dKY-rT-eZM" secondAttribute="top" constant="40" id="MnP-Fs-hV6"/>
                                 <constraint firstItem="zpq-Zn-qX4" firstAttribute="leading" secondItem="dKY-rT-eZM" secondAttribute="leading" constant="16" id="XSf-GC-cfR"/>
                                 <constraint firstAttribute="trailing" secondItem="zpq-Zn-qX4" secondAttribute="trailing" constant="16" id="YFK-Ov-y9u"/>
                                 <constraint firstAttribute="bottom" secondItem="TDE-v7-2vH" secondAttribute="bottom" id="brd-Qv-CQ2"/>
-                                <constraint firstItem="TDE-v7-2vH" firstAttribute="leading" secondItem="dKY-rT-eZM" secondAttribute="leading" constant="20" id="jn0-GH-81b"/>
+                                <constraint firstItem="TDE-v7-2vH" firstAttribute="leading" secondItem="dKY-rT-eZM" secondAttribute="leading" constant="16" id="jn0-GH-81b"/>
                             </constraints>
                         </view>
                     </subviews>

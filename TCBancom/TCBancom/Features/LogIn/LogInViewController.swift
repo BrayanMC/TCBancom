@@ -74,7 +74,7 @@ class LogInViewController: BaseViewController {
         guard let text = self.forgotMyPasswordLabel.text else { return }
         let range = (text as NSString).range(of: text)
         if gesture.didTapAttributedTextInLabel(label: self.forgotMyPasswordLabel, inRange: range) {
-            // empty ;(
+            debugPrint("forgotMyPasswordLabelTapped")
         }
     }
     

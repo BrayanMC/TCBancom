@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3508E73A2A7817FC00AB4C5B /* CreatePostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E72E2A7817FC00AB4C5B /* CreatePostPresenter.swift */; };
+		3508E73B2A7817FC00AB4C5B /* CreatePostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E72E2A7817FC00AB4C5B /* CreatePostPresenter.swift */; };
+		3508E73C2A7817FC00AB4C5B /* CreatePostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E72E2A7817FC00AB4C5B /* CreatePostPresenter.swift */; };
+		3508E73D2A7817FC00AB4C5B /* CreatePostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3508E72F2A7817FC00AB4C5B /* CreatePostViewController.xib */; };
+		3508E73E2A7817FC00AB4C5B /* CreatePostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3508E72F2A7817FC00AB4C5B /* CreatePostViewController.xib */; };
+		3508E73F2A7817FC00AB4C5B /* CreatePostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3508E72F2A7817FC00AB4C5B /* CreatePostViewController.xib */; };
+		3508E7402A7817FC00AB4C5B /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E7302A7817FC00AB4C5B /* CreatePostViewController.swift */; };
+		3508E7412A7817FC00AB4C5B /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E7302A7817FC00AB4C5B /* CreatePostViewController.swift */; };
+		3508E7422A7817FC00AB4C5B /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E7302A7817FC00AB4C5B /* CreatePostViewController.swift */; };
+		3508E7462A7817FC00AB4C5B /* CreatePostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E7322A7817FC00AB4C5B /* CreatePostRouter.swift */; };
+		3508E7472A7817FC00AB4C5B /* CreatePostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E7322A7817FC00AB4C5B /* CreatePostRouter.swift */; };
+		3508E7482A7817FC00AB4C5B /* CreatePostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E7322A7817FC00AB4C5B /* CreatePostRouter.swift */; };
+		3508E7492A7817FC00AB4C5B /* CreatePostViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E7332A7817FC00AB4C5B /* CreatePostViewData.swift */; };
+		3508E74A2A7817FC00AB4C5B /* CreatePostViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E7332A7817FC00AB4C5B /* CreatePostViewData.swift */; };
+		3508E74B2A7817FC00AB4C5B /* CreatePostViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508E7332A7817FC00AB4C5B /* CreatePostViewData.swift */; };
 		35AFF0262A778D7F0098E8E5 /* TimerApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0252A778D7F0098E8E5 /* TimerApplication.swift */; };
 		35AFF0272A778D7F0098E8E5 /* TimerApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0252A778D7F0098E8E5 /* TimerApplication.swift */; };
 		35AFF0282A778D7F0098E8E5 /* TimerApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0252A778D7F0098E8E5 /* TimerApplication.swift */; };
@@ -59,6 +74,9 @@
 		35D255FC2A77C9B200C07E2F /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35D255FA2A77C9B200C07E2F /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35D255FE2A77CA2A00C07E2F /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D255FD2A77CA2A00C07E2F /* Data.framework */; };
 		35D255FF2A77CA2A00C07E2F /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35D255FD2A77CA2A00C07E2F /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35D2560C2A77EF0200C07E2F /* UserSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D2560B2A77EF0200C07E2F /* UserSection.swift */; };
+		35D2560D2A77EF0200C07E2F /* UserSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D2560B2A77EF0200C07E2F /* UserSection.swift */; };
+		35D2560E2A77EF0200C07E2F /* UserSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D2560B2A77EF0200C07E2F /* UserSection.swift */; };
 		35D4D2C52A77653500D66299 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C42A77653500D66299 /* UIComponents.framework */; };
 		35D4D2C62A77653500D66299 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C42A77653500D66299 /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35D4D2C82A77665700D66299 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C72A77665700D66299 /* Common.framework */; };
@@ -192,6 +210,11 @@
 
 /* Begin PBXFileReference section */
 		1FB92A0235BADE667CE6AA6B /* Pods-TCBancom-TCBancomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBancom-TCBancomUITests.release.xcconfig"; path = "Target Support Files/Pods-TCBancom-TCBancomUITests/Pods-TCBancom-TCBancomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3508E72E2A7817FC00AB4C5B /* CreatePostPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostPresenter.swift; sourceTree = "<group>"; };
+		3508E72F2A7817FC00AB4C5B /* CreatePostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatePostViewController.xib; sourceTree = "<group>"; };
+		3508E7302A7817FC00AB4C5B /* CreatePostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		3508E7322A7817FC00AB4C5B /* CreatePostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostRouter.swift; sourceTree = "<group>"; };
+		3508E7332A7817FC00AB4C5B /* CreatePostViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostViewData.swift; sourceTree = "<group>"; };
 		35AFF0252A778D7F0098E8E5 /* TimerApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApplication.swift; sourceTree = "<group>"; };
 		35AFF02D2A778EFF0098E8E5 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		35AFF0322A7794720098E8E5 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +236,7 @@
 		35D2556F2A77B3DE00C07E2F /* animation_lkqnqixy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_lkqnqixy.json; sourceTree = "<group>"; };
 		35D255FA2A77C9B200C07E2F /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D255FD2A77CA2A00C07E2F /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D2560B2A77EF0200C07E2F /* UserSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSection.swift; sourceTree = "<group>"; };
 		35D4D2C42A77653500D66299 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D4D2C72A77665700D66299 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
@@ -295,6 +319,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3508E72A2A7817FC00AB4C5B /* CreatePost */ = {
+			isa = PBXGroup;
+			children = (
+				3508E72E2A7817FC00AB4C5B /* CreatePostPresenter.swift */,
+				3508E72F2A7817FC00AB4C5B /* CreatePostViewController.xib */,
+				3508E7302A7817FC00AB4C5B /* CreatePostViewController.swift */,
+				3508E7322A7817FC00AB4C5B /* CreatePostRouter.swift */,
+				3508E7332A7817FC00AB4C5B /* CreatePostViewData.swift */,
+			);
+			path = CreatePost;
+			sourceTree = "<group>";
+		};
 		35AFF02C2A778EF60098E8E5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +342,7 @@
 		35AFF0312A7794610098E8E5 /* Users */ = {
 			isa = PBXGroup;
 			children = (
+				3508E72A2A7817FC00AB4C5B /* CreatePost */,
 				35AFF0502A779E900098E8E5 /* Post */,
 				35AFF0472A779D800098E8E5 /* User */,
 				35AFF0322A7794720098E8E5 /* UsersViewController.swift */,
@@ -321,6 +358,7 @@
 			children = (
 				35AFF0482A779D960098E8E5 /* UserViewCell.xib */,
 				35AFF04C2A779DB60098E8E5 /* UserViewCell.swift */,
+				35D2560B2A77EF0200C07E2F /* UserSection.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -656,6 +694,7 @@
 				35AFF03F2A77966E0098E8E5 /* UsersViewController.xib in Resources */,
 				35DCD7632A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */,
 				35DCD7842A734B2E000C0F7F /* Nunito-SemiBoldItalic.ttf in Resources */,
+				3508E73D2A7817FC00AB4C5B /* CreatePostViewController.xib in Resources */,
 				35DCD7982A735A13000C0F7F /* SplashViewController.storyboard in Resources */,
 				35DCD78D2A734B2E000C0F7F /* Nunito-LightItalic.ttf in Resources */,
 				35DCD7942A73567A000C0F7F /* Localizable.strings in Resources */,
@@ -693,6 +732,7 @@
 				35DCD7912A734B2E000C0F7F /* Nunito-MediumItalic.ttf in Resources */,
 				35DCD7732A734B2E000C0F7F /* Nunito-Regular.ttf in Resources */,
 				35DCD78B2A734B2E000C0F7F /* Nunito-Italic.ttf in Resources */,
+				3508E73E2A7817FC00AB4C5B /* CreatePostViewController.xib in Resources */,
 				35AFF0402A77966E0098E8E5 /* UsersViewController.xib in Resources */,
 				35DCD76A2A734B2E000C0F7F /* Nunito-ExtraBold.ttf in Resources */,
 				35DCD7822A734B2E000C0F7F /* Nunito-ExtraLight.ttf in Resources */,
@@ -724,6 +764,7 @@
 				35DCD7922A734B2E000C0F7F /* Nunito-MediumItalic.ttf in Resources */,
 				35DCD7742A734B2E000C0F7F /* Nunito-Regular.ttf in Resources */,
 				35DCD78C2A734B2E000C0F7F /* Nunito-Italic.ttf in Resources */,
+				3508E73F2A7817FC00AB4C5B /* CreatePostViewController.xib in Resources */,
 				35AFF0412A77966E0098E8E5 /* UsersViewController.xib in Resources */,
 				35DCD76B2A734B2E000C0F7F /* Nunito-ExtraBold.ttf in Resources */,
 				35DCD7832A734B2E000C0F7F /* Nunito-ExtraLight.ttf in Resources */,
@@ -857,15 +898,20 @@
 				35AFF0262A778D7F0098E8E5 /* TimerApplication.swift in Sources */,
 				35AFF0332A7794720098E8E5 /* UsersViewController.swift in Sources */,
 				35DCD7B62A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
+				3508E7462A7817FC00AB4C5B /* CreatePostRouter.swift in Sources */,
+				3508E73A2A7817FC00AB4C5B /* CreatePostPresenter.swift in Sources */,
 				35DCD7AA2A735CE3000C0F7F /* AppViewController.swift in Sources */,
 				35DCD79D2A735A26000C0F7F /* SplashViewController.swift in Sources */,
 				35DCD7AE2A735D02000C0F7F /* SplashRouter.swift in Sources */,
 				35AFF02E2A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */,
+				35D2560C2A77EF0200C07E2F /* UserSection.swift in Sources */,
 				35DCD7B22A735D23000C0F7F /* SplashPresenter.swift in Sources */,
+				3508E7492A7817FC00AB4C5B /* CreatePostViewData.swift in Sources */,
 				35CD62722A76DE3500232CF8 /* LogInRouter.swift in Sources */,
 				35DCD7A22A735B3F000C0F7F /* BaseViewController.swift in Sources */,
 				35F52A012A733FE000AEB98D /* AppDelegate.swift in Sources */,
 				35DCD7A62A735CD2000C0F7F /* AppRouter.swift in Sources */,
+				3508E7402A7817FC00AB4C5B /* CreatePostViewController.swift in Sources */,
 				35AFF04D2A779DB60098E8E5 /* UserViewCell.swift in Sources */,
 				35CD627A2A76DE5900232CF8 /* LogInViewController.swift in Sources */,
 				35F52A032A733FE000AEB98D /* SceneDelegate.swift in Sources */,
@@ -881,8 +927,11 @@
 			files = (
 				35AFF0272A778D7F0098E8E5 /* TimerApplication.swift in Sources */,
 				35DCD7B72A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
+				3508E7412A7817FC00AB4C5B /* CreatePostViewController.swift in Sources */,
 				35DCD7AB2A735CE3000C0F7F /* AppViewController.swift in Sources */,
+				3508E74A2A7817FC00AB4C5B /* CreatePostViewData.swift in Sources */,
 				35CD62732A76DE3500232CF8 /* LogInRouter.swift in Sources */,
+				35D2560D2A77EF0200C07E2F /* UserSection.swift in Sources */,
 				35DCD7B32A735D23000C0F7F /* SplashPresenter.swift in Sources */,
 				35AFF02F2A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */,
 				35DCD7AF2A735D02000C0F7F /* SplashRouter.swift in Sources */,
@@ -891,10 +940,12 @@
 				35DCD7BC2A735E19000C0F7F /* NavigationBuilder.swift in Sources */,
 				35F52A182A733FE300AEB98D /* TCBancomTests.swift in Sources */,
 				35CD62772A76DE3F00232CF8 /* LogInPresenter.swift in Sources */,
+				3508E7472A7817FC00AB4C5B /* CreatePostRouter.swift in Sources */,
 				35AFF0342A7794720098E8E5 /* UsersViewController.swift in Sources */,
 				35DCD7C02A735E27000C0F7F /* NavigationController.swift in Sources */,
 				35AFF0562A77A61C0098E8E5 /* PostViewCell.swift in Sources */,
 				35DCD79E2A735A26000C0F7F /* SplashViewController.swift in Sources */,
+				3508E73B2A7817FC00AB4C5B /* CreatePostPresenter.swift in Sources */,
 				35DCD7A32A735B3F000C0F7F /* BaseViewController.swift in Sources */,
 				35AFF03C2A7794E20098E8E5 /* UsersPresenter.swift in Sources */,
 				35AFF0382A7794DC0098E8E5 /* UsersRouter.swift in Sources */,
@@ -912,15 +963,20 @@
 				35AFF0282A778D7F0098E8E5 /* TimerApplication.swift in Sources */,
 				35AFF0352A7794720098E8E5 /* UsersViewController.swift in Sources */,
 				35DCD7B82A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
+				3508E7482A7817FC00AB4C5B /* CreatePostRouter.swift in Sources */,
+				3508E73C2A7817FC00AB4C5B /* CreatePostPresenter.swift in Sources */,
 				35DCD7AC2A735CE3000C0F7F /* AppViewController.swift in Sources */,
 				35DCD79F2A735A26000C0F7F /* SplashViewController.swift in Sources */,
 				35DCD7B02A735D02000C0F7F /* SplashRouter.swift in Sources */,
 				35AFF0302A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */,
+				35D2560E2A77EF0200C07E2F /* UserSection.swift in Sources */,
 				35DCD7B42A735D23000C0F7F /* SplashPresenter.swift in Sources */,
+				3508E74B2A7817FC00AB4C5B /* CreatePostViewData.swift in Sources */,
 				35CD62742A76DE3500232CF8 /* LogInRouter.swift in Sources */,
 				35DCD7A42A735B3F000C0F7F /* BaseViewController.swift in Sources */,
 				35F52A242A733FE300AEB98D /* TCBancomUITestsLaunchTests.swift in Sources */,
 				35DCD7A82A735CD2000C0F7F /* AppRouter.swift in Sources */,
+				3508E7422A7817FC00AB4C5B /* CreatePostViewController.swift in Sources */,
 				35AFF04F2A779DB60098E8E5 /* UserViewCell.swift in Sources */,
 				35CD627C2A76DE5900232CF8 /* LogInViewController.swift in Sources */,
 				35F52A222A733FE300AEB98D /* TCBancomUITests.swift in Sources */,

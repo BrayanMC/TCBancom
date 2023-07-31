@@ -8,102 +8,62 @@
 import UIKit
 import UIComponents
 import Domain
+import Common
 
-class UserViewCell: UITableViewCell {
+class UserViewCell: UITableViewHeaderFooterView {
     
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var createPostButton: UIButton!
-    @IBOutlet weak var arrowImageView: UIView!
-    //@IBOutlet weak var transactionsTableView: UITableView!
-    //@IBOutlet weak var transactionsHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var phoneNumberLabel: UILabel!
+    @IBOutlet weak var loadingView: UIView!
+    @IBOutlet weak var indicatorImageView: UIImageView!
+    @IBOutlet weak var indicatorView: UIView!
+    @IBOutlet weak var plusView: UIView!
     
-    /*
-     private var transactions: [Transaction.GetLastTransactionsResponse.ResultResponse.TransactionResponse] = [Transaction.GetLastTransactionsResponse.ResultResponse.TransactionResponse]()
-     */
+    private var userId: Int = 0
     
-    var tapped: ((UserModel.GetUsers.User) -> Void)?
+    public static var identifier: String {
+        return String(describing: UserViewCell.self)
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.setUpView()
-        //self.setDelegates()
-        //self.updateMonthTransactions()
     }
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
+    var createPost: ((Int) -> Void)?
+    var toggleSection: ((Int) -> Void)?
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        //self.setTransactionsHeightConstraint()
-    }
-    
-    private func setUpView() {
-    }
-    
-    private func setDelegates() {
-        /*
-         self.transactionsTableView.dataSource = self
-         self.transactionsTableView.register(TransactionViewCell.self)
-         self.transactionsTableView.rowHeight = UITableView.automaticDimension
-         self.transactionsTableView.estimatedRowHeight = UITableView.automaticDimension
-         */
-    }
-    
-     private func setLoadingView(showShimmer: Bool) {
-         //self.updateMonthTransactions()
-         self.nameLabel.isShimmer(showShimmer)
-         self.createPostButton.isHidden = showShimmer
-         self.arrowImageView.isHidden = showShimmer
+    private func setLoadingView(showShimmer: Bool) {
+        self.nameLabel.isShimmer(showShimmer)
+        self.loadingView.isShimmer(showShimmer)
+        self.loadingView.isHidden = !showShimmer
+        self.indicatorView.isHidden = showShimmer
+        self.plusView.isHidden = showShimmer
+        self.contentView.backgroundColor = showShimmer ? ColorManager.shared.gray0 : ColorManager.shared.gray30
      }
     
     func displayShimmers() {
         self.setLoadingView(showShimmer: true)
     }
     
-    func setUpCell(user: UserModel.GetUsers.User) {
+    func setUpCell(userSection: UserSection) {
         self.setLoadingView(showShimmer: false)
-        self.nameLabel.text = user.name
+        self.userId = userSection.id
+        self.nameLabel.text = userSection.name
+        self.usernameLabel.text = userSection.username
+        self.addressLabel.text = "\(userSection.street), \(userSection.suite), \(userSection.city)"
+        self.emailLabel.text = userSection.email
+        self.phoneNumberLabel.text = userSection.phone
+        self.indicatorImageView.image = userSection.isExpand ? ImageManager.shared.icArrowUp : ImageManager.shared.icArrowDown
     }
     
-    /*
-     
-     func updateMonthTransactions() {
-         self.transactions.removeAll()
-         self.transactionsTableView.reloadData()
-         self.setTransactionsHeightConstraint()
-     }
-     
-     private func setTransactionsHeightConstraint() {
-         self.transactionsHeightConstraint.constant = self.transactionsTableView.intrinsicContentSize.height
-     }
-     */
+    @IBAction func handleSectionButtonTapped(_ sender: Any) {
+        self.toggleSection?(self.userId)
+    }
     
     @IBAction func createPostButtonTapped(_ sender: Any) {
+        self.createPost?(self.userId)
     }
 }
-
-/*
- extension MonthTransactionViewCell: UITableViewDataSource {
-     
-     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-         return self.transactions.isEmpty ? 2 : self.transactions.count
-     }
-     
-     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-         let cell: TransactionViewCell = tableView.dequeueCell(forIndexPath: indexPath)
-         if (self.transactions.isEmpty) {
-             cell.displayShimmers()
-         } else {
-             let transaction = self.transactions[indexPath.row]
-             cell.setUpCell(transaction: transaction)
-             cell.tapped = { [weak self] () -> Void in
-                 guard self != nil else { return }
-                 self?.tapped?(transaction)
-             }
-         }
-         return cell
-     }
- }
- */

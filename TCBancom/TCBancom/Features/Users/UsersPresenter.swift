@@ -10,6 +10,8 @@ import Domain
 
 protocol UsersPresenterProtocol: AnyObject {
     func getUsers()
+    func getPosts(userId: Int)
+    func goToCreatePost(userId: Int)
 }
 
 class UsersPresenter {
@@ -46,5 +48,28 @@ extension UsersPresenter: UsersPresenterProtocol {
                 self.getUsers()
             }
         }
+    }
+    
+    func getPosts(userId: Int) {
+        if (RepositoryRemote.sharedInstance.hasNetworkConnection()) {
+            self.postInteractorProtocol.getPosts(params: PostModel.GetPostsByUserIdParams(id: userId)).done { response in
+                print("Users - getPosts(...): \(response)")
+                self.view.showPosts(data: response)
+            }.catch { error in
+                print("Users - getPosts(...) | Error: \(error)")
+                self.view.showAlert(title: "Ocurrió un error", message: error.localizedDescription, actionTitle: "Ok") {
+                }
+            }.finally {
+                print("Users - getPosts(...) | Request is complete 🎉")
+            }
+        } else {
+            self.view.showAlert(title: "", message: "No tiene conexión a internet", actionTitle: "Reintentar") {
+                self.getPosts(userId: userId)
+            }
+        }
+    }
+    
+    func goToCreatePost(userId: Int) {
+        self.router.routeToCreatePost(userId: userId)
     }
 }
