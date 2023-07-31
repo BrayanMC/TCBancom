@@ -18,8 +18,20 @@
 		35CD63C92A77425C00232CF8 /* CustomButtonCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63C02A77425C00232CF8 /* CustomButtonCodes.swift */; };
 		35CD63CA2A77425C00232CF8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63C12A77425C00232CF8 /* CustomButton.swift */; };
 		35CD63CB2A77425C00232CF8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63C12A77425C00232CF8 /* CustomButton.swift */; };
-		35CD63D12A77427C00232CF8 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63D02A77427C00232CF8 /* Common.framework */; };
-		35CD63D22A77427C00232CF8 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63D02A77427C00232CF8 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35D4D2AA2A77471500D66299 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2A92A77471500D66299 /* CustomTextField.swift */; };
+		35D4D2AB2A77471500D66299 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2A92A77471500D66299 /* CustomTextField.swift */; };
+		35D4D2AD2A77472300D66299 /* CustomTextFieldProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2AC2A77472300D66299 /* CustomTextFieldProtocols.swift */; };
+		35D4D2AE2A77472300D66299 /* CustomTextFieldProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2AC2A77472300D66299 /* CustomTextFieldProtocols.swift */; };
+		35D4D2B02A774B0E00D66299 /* TextFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2AF2A774B0E00D66299 /* TextFieldType.swift */; };
+		35D4D2B12A774B0E00D66299 /* TextFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2AF2A774B0E00D66299 /* TextFieldType.swift */; };
+		35D4D2B62A774C4F00D66299 /* CustomTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2B52A774C4F00D66299 /* CustomTextField+Extensions.swift */; };
+		35D4D2B72A774C4F00D66299 /* CustomTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2B52A774C4F00D66299 /* CustomTextField+Extensions.swift */; };
+		35D4D2BF2A7753AC00D66299 /* KeyboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2BE2A7753AC00D66299 /* KeyboardType.swift */; };
+		35D4D2C02A7753AC00D66299 /* KeyboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2BE2A7753AC00D66299 /* KeyboardType.swift */; };
+		35D4D2CB2A77666400D66299 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2CA2A77666400D66299 /* Common.framework */; };
+		35D4D2CF2A77765000D66299 /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D4D2CE2A77765000D66299 /* CustomTextField.xib */; };
+		35D4D2D02A77765000D66299 /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D4D2CE2A77765000D66299 /* CustomTextField.xib */; };
+		7079B9F2DC9E6D221E0783FA /* Pods_UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31BA45BD0A72FEE26DDAD95 /* Pods_UIComponents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,20 +44,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		35CD63D32A77427C00232CF8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				35CD63D22A77427C00232CF8 /* Common.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		35CD63A32A77424500232CF8 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CD63A62A77424500232CF8 /* UIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIComponents.h; sourceTree = "<group>"; };
@@ -56,6 +54,16 @@
 		35CD63C02A77425C00232CF8 /* CustomButtonCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonCodes.swift; sourceTree = "<group>"; };
 		35CD63C12A77425C00232CF8 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		35CD63D02A77427C00232CF8 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D4D2A92A77471500D66299 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		35D4D2AC2A77472300D66299 /* CustomTextFieldProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldProtocols.swift; sourceTree = "<group>"; };
+		35D4D2AF2A774B0E00D66299 /* TextFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldType.swift; sourceTree = "<group>"; };
+		35D4D2B52A774C4F00D66299 /* CustomTextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomTextField+Extensions.swift"; sourceTree = "<group>"; };
+		35D4D2BE2A7753AC00D66299 /* KeyboardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardType.swift; sourceTree = "<group>"; };
+		35D4D2CA2A77666400D66299 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D4D2CE2A77765000D66299 /* CustomTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTextField.xib; sourceTree = "<group>"; };
+		3FCAE503A7ECA59BA6E39706 /* Pods-UIComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.release.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.release.xcconfig"; sourceTree = "<group>"; };
+		A33EB7B727B46BCB9B6A2024 /* Pods-UIComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.debug.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		B31BA45BD0A72FEE26DDAD95 /* Pods_UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35CD63D12A77427C00232CF8 /* Common.framework in Frameworks */,
+				35D4D2CB2A77666400D66299 /* Common.framework in Frameworks */,
+				7079B9F2DC9E6D221E0783FA /* Pods_UIComponents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 				35CD63AF2A77424500232CF8 /* UIComponentsTests */,
 				35CD63A42A77424500232CF8 /* Products */,
 				35CD63CF2A77427C00232CF8 /* Frameworks */,
+				F6053AD84565BF10B5DD44D0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +163,12 @@
 		35CD63C32A77425C00232CF8 /* CustomTextField */ = {
 			isa = PBXGroup;
 			children = (
+				35D4D2A92A77471500D66299 /* CustomTextField.swift */,
+				35D4D2AC2A77472300D66299 /* CustomTextFieldProtocols.swift */,
+				35D4D2AF2A774B0E00D66299 /* TextFieldType.swift */,
+				35D4D2B52A774C4F00D66299 /* CustomTextField+Extensions.swift */,
+				35D4D2BE2A7753AC00D66299 /* KeyboardType.swift */,
+				35D4D2CE2A77765000D66299 /* CustomTextField.xib */,
 			);
 			path = CustomTextField;
 			sourceTree = "<group>";
@@ -160,9 +176,21 @@
 		35CD63CF2A77427C00232CF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35D4D2CA2A77666400D66299 /* Common.framework */,
 				35CD63D02A77427C00232CF8 /* Common.framework */,
+				B31BA45BD0A72FEE26DDAD95 /* Pods_UIComponents.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6053AD84565BF10B5DD44D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A33EB7B727B46BCB9B6A2024 /* Pods-UIComponents.debug.xcconfig */,
+				3FCAE503A7ECA59BA6E39706 /* Pods-UIComponents.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,11 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35CD63B52A77424500232CF8 /* Build configuration list for PBXNativeTarget "UIComponents" */;
 			buildPhases = (
+				27903DC9AF1D33C9AACEDB3F /* [CP] Check Pods Manifest.lock */,
 				35CD639E2A77424500232CF8 /* Headers */,
 				35CD639F2A77424500232CF8 /* Sources */,
 				35CD63A02A77424500232CF8 /* Frameworks */,
 				35CD63A12A77424500232CF8 /* Resources */,
-				35CD63D32A77427C00232CF8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D4D2CF2A77765000D66299 /* CustomTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,20 +294,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D4D2D02A77765000D66299 /* CustomTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27903DC9AF1D33C9AACEDB3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		35CD639F2A77424500232CF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D4D2B02A774B0E00D66299 /* TextFieldType.swift in Sources */,
 				35CD63CA2A77425C00232CF8 /* CustomButton.swift in Sources */,
 				35CD63C82A77425C00232CF8 /* CustomButtonCodes.swift in Sources */,
+				35D4D2B62A774C4F00D66299 /* CustomTextField+Extensions.swift in Sources */,
 				35CD63C62A77425C00232CF8 /* CheckButton.swift in Sources */,
+				35D4D2BF2A7753AC00D66299 /* KeyboardType.swift in Sources */,
 				35CD63C42A77425C00232CF8 /* CheckButtonCodes.swift in Sources */,
+				35D4D2AD2A77472300D66299 /* CustomTextFieldProtocols.swift in Sources */,
+				35D4D2AA2A77471500D66299 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +347,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CD63B12A77424500232CF8 /* UIComponentsTests.swift in Sources */,
+				35D4D2B12A774B0E00D66299 /* TextFieldType.swift in Sources */,
+				35D4D2B72A774C4F00D66299 /* CustomTextField+Extensions.swift in Sources */,
 				35CD63C72A77425C00232CF8 /* CheckButton.swift in Sources */,
+				35D4D2AB2A77471500D66299 /* CustomTextField.swift in Sources */,
 				35CD63C52A77425C00232CF8 /* CheckButtonCodes.swift in Sources */,
+				35D4D2C02A7753AC00D66299 /* KeyboardType.swift in Sources */,
+				35D4D2AE2A77472300D66299 /* CustomTextFieldProtocols.swift in Sources */,
 				35CD63C92A77425C00232CF8 /* CustomButtonCodes.swift in Sources */,
 				35CD63CB2A77425C00232CF8 /* CustomButton.swift in Sources */,
 			);
@@ -427,6 +492,7 @@
 		};
 		35CD63B62A77424500232CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33EB7B727B46BCB9B6A2024 /* Pods-UIComponents.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -438,7 +504,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +527,7 @@
 		};
 		35CD63B72A77424500232CF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCAE503A7ECA59BA6E39706 /* Pods-UIComponents.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -472,7 +539,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,9 +570,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.UIComponentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -519,9 +589,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.UIComponentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

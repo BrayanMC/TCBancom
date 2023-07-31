@@ -15,5 +15,7 @@ public final class ImageManager {
     
     public var icCheckOn: UIImage = UIImage(named: "ic-check-on", in: Bundle.main, compatibleWith: nil) ?? UIImage()
     public var icCheckOff: UIImage = UIImage(named: "ic-check-off", in: Bundle.main, compatibleWith: nil) ?? UIImage()
+    public var icSelectedEye: UIImage = UIImage(named: "ic-selected-eye", in: Bundle.main, compatibleWith: nil) ?? UIImage()
+    public var icUnselectedEye: UIImage = UIImage(named: "ic-unselected-eye", in: Bundle.main, compatibleWith: nil) ?? UIImage()
 }
 

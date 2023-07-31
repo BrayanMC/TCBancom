@@ -4,13 +4,23 @@
 workspace 'TCBancom'
 
 project 'TCBancom/TCBancom.xcodeproj'
+project 'UIComponents/UIComponents.xcodeproj'
+project 'Common/Common.xcodeproj'
 
-# Pods for TarjetaW
+# Pods for TCBancom
 def tcbancompods
+  pod "IQKeyboardManagerSwift"
 end
 
-target 'TCBancom' do
-  project 'TCBancom/TCBancom.xcodeproj'
+# Pods for Common
+def commonpods
+end
+
+# Pods for UIComponents
+def uicomponentspods
+end
+
+target 'TCBancom' do project 'TCBancom/TCBancom.xcodeproj'
   # Comment the next line if you don't want to use dynamic frameworks
 
   # Pods for TCBancom
@@ -26,4 +36,16 @@ target 'TCBancom' do
     # Pods for testing
   end
 
+end
+
+target 'UIComponents' do project 'UIComponents/UIComponents.xcodeproj'
+  use_frameworks!
+  uicomponentspods
+  
+end
+
+target 'Common' do project 'Common/Common.xcodeproj'
+  use_frameworks!
+  commonpods
+  
 end

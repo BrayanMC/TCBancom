@@ -26,6 +26,13 @@
 		35CD63922A77421000232CF8 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63822A77421000232CF8 /* Protocols.swift */; };
 		35CD63932A77421000232CF8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63842A77421000232CF8 /* Fonts.swift */; };
 		35CD63942A77421000232CF8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63842A77421000232CF8 /* Fonts.swift */; };
+		35D4D2B92A77500100D66299 /* ValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2B82A77500100D66299 /* ValidationUtil.swift */; };
+		35D4D2BA2A77500100D66299 /* ValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2B82A77500100D66299 /* ValidationUtil.swift */; };
+		35D4D2BC2A7752B900D66299 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2BB2A7752B800D66299 /* String+Extensions.swift */; };
+		35D4D2BD2A7752B900D66299 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2BB2A7752B800D66299 /* String+Extensions.swift */; };
+		35D4D2C22A77540E00D66299 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2C12A77540E00D66299 /* UITextField+Extensions.swift */; };
+		35D4D2C32A77540E00D66299 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2C12A77540E00D66299 /* UITextField+Extensions.swift */; };
+		B44DED5C3FC915F4D4201B82 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38089F3DB92810A58DD3360 /* Pods_Common.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,12 @@
 		35CD63812A77421000232CF8 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		35CD63822A77421000232CF8 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		35CD63842A77421000232CF8 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		35D4D2B82A77500100D66299 /* ValidationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtil.swift; sourceTree = "<group>"; };
+		35D4D2BB2A7752B800D66299 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		35D4D2C12A77540E00D66299 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		765186D67D48CFB98CE200BB /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
+		78741F9528AB7F8E953C8BF8 /* Pods-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.release.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.release.xcconfig"; sourceTree = "<group>"; };
+		C38089F3DB92810A58DD3360 /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44DED5C3FC915F4D4201B82 /* Pods_Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,8 @@
 				35CD63632A7741DF00232CF8 /* Common */,
 				35CD636D2A7741E000232CF8 /* CommonTests */,
 				35CD63622A7741DF00232CF8 /* Products */,
+				D1CE7B6AFDF5F044B80F48BE /* Pods */,
+				EA6224551CE6858665D7A650 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +131,7 @@
 				35CD637E2A77421000232CF8 /* Extensions */,
 				35CD63822A77421000232CF8 /* Protocols.swift */,
 				35CD63832A77421000232CF8 /* Fonts */,
+				35D4D2B82A77500100D66299 /* ValidationUtil.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -134,6 +151,8 @@
 				35CD637F2A77421000232CF8 /* UIButton+Extensions.swift */,
 				35CD63802A77421000232CF8 /* UIView+Extensions.swift */,
 				35CD63812A77421000232CF8 /* UIFont+Extensions.swift */,
+				35D4D2BB2A7752B800D66299 /* String+Extensions.swift */,
+				35D4D2C12A77540E00D66299 /* UITextField+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -144,6 +163,24 @@
 				35CD63842A77421000232CF8 /* Fonts.swift */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D1CE7B6AFDF5F044B80F48BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				765186D67D48CFB98CE200BB /* Pods-Common.debug.xcconfig */,
+				78741F9528AB7F8E953C8BF8 /* Pods-Common.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		EA6224551CE6858665D7A650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C38089F3DB92810A58DD3360 /* Pods_Common.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35CD63732A7741E000232CF8 /* Build configuration list for PBXNativeTarget "Common" */;
 			buildPhases = (
+				F9B50059A28D4FB272861A0E /* [CP] Check Pods Manifest.lock */,
 				35CD635C2A7741DF00232CF8 /* Headers */,
 				35CD635D2A7741DF00232CF8 /* Sources */,
 				35CD635E2A7741DF00232CF8 /* Frameworks */,
@@ -250,15 +288,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F9B50059A28D4FB272861A0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Common-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35CD635D2A7741DF00232CF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D4D2C22A77540E00D66299 /* UITextField+Extensions.swift in Sources */,
+				35D4D2BC2A7752B900D66299 /* String+Extensions.swift in Sources */,
 				35CD63932A77421000232CF8 /* Fonts.swift in Sources */,
 				35CD63892A77421000232CF8 /* ColorManager.swift in Sources */,
 				35CD638B2A77421000232CF8 /* UIButton+Extensions.swift in Sources */,
 				35CD63912A77421000232CF8 /* Protocols.swift in Sources */,
+				35D4D2B92A77500100D66299 /* ValidationUtil.swift in Sources */,
 				35CD638D2A77421000232CF8 /* UIView+Extensions.swift in Sources */,
 				35CD63852A77421000232CF8 /* Constants.swift in Sources */,
 				35CD638F2A77421000232CF8 /* UIFont+Extensions.swift in Sources */,
@@ -271,12 +337,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CD638E2A77421000232CF8 /* UIView+Extensions.swift in Sources */,
+				35D4D2BD2A7752B900D66299 /* String+Extensions.swift in Sources */,
 				35CD63882A77421000232CF8 /* ImageManager.swift in Sources */,
+				35D4D2BA2A77500100D66299 /* ValidationUtil.swift in Sources */,
 				35CD636F2A7741E000232CF8 /* CommonTests.swift in Sources */,
 				35CD63862A77421000232CF8 /* Constants.swift in Sources */,
 				35CD638C2A77421000232CF8 /* UIButton+Extensions.swift in Sources */,
 				35CD638A2A77421000232CF8 /* ColorManager.swift in Sources */,
 				35CD63902A77421000232CF8 /* UIFont+Extensions.swift in Sources */,
+				35D4D2C32A77540E00D66299 /* UITextField+Extensions.swift in Sources */,
 				35CD63942A77421000232CF8 /* Fonts.swift in Sources */,
 				35CD63922A77421000232CF8 /* Protocols.swift in Sources */,
 			);
@@ -415,6 +484,7 @@
 		};
 		35CD63742A7741E000232CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765186D67D48CFB98CE200BB /* Pods-Common.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -426,7 +496,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,6 +519,7 @@
 		};
 		35CD63752A7741E000232CF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78741F9528AB7F8E953C8BF8 /* Pods-Common.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -460,7 +531,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,9 +562,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.CommonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -507,9 +581,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmunoz.CommonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
