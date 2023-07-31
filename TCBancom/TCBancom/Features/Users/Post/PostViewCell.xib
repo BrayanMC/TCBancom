@@ -20,22 +20,22 @@
                 <rect key="frame" x="0.0" y="0.0" width="390" height="64"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victoria Lane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVy-Nh-tw1">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victoria Lane" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVy-Nh-tw1">
                         <rect key="frame" x="16" y="12" width="358" height="16"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="16" id="3wS-MR-0w6"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="3wS-MR-0w6"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="16"/>
+                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="14"/>
                         <color key="textColor" name="Gray100"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victoria Lane" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0z-Mx-yt9">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victoria Lane" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0z-Mx-yt9">
                         <rect key="frame" x="16" y="36" width="358" height="16"/>
                         <constraints>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="0VH-O6-aBs"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="12"/>
-                        <color key="textColor" name="Gray100"/>
+                        <color key="textColor" name="Gray80"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
@@ -52,7 +52,6 @@
             <connections>
                 <outlet property="bodyLabel" destination="h0z-Mx-yt9" id="5dO-WW-eOl"/>
                 <outlet property="titleLabel" destination="WVy-Nh-tw1" id="e6S-xP-Ygd"/>
-                <outlet property="transactionTypeLabel" destination="WVy-Nh-tw1" id="SuD-DM-UPX"/>
             </connections>
             <point key="canvasLocation" x="130.76923076923077" y="-11.374407582938389"/>
         </tableViewCell>
@@ -61,6 +60,9 @@
     <resources>
         <namedColor name="Gray100">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Gray80">
+            <color red="0.25900000333786011" green="0.32199999690055847" blue="0.41600000858306885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

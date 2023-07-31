@@ -28,13 +28,15 @@ extension UserModel {
             public var name: String
             public var username: String
             public var email: String
+            public var phone: String
             public var address: Address?
             
-            public init(id: Int, name: String, username: String, email: String, address: Address?) {
+            public init(id: Int, name: String, username: String, email: String, phone: String, address: Address?) {
                 self.id = id
                 self.name = name
                 self.username = username
                 self.email = email
+                self.phone = phone
                 self.address = address
             }
             

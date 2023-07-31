@@ -33,10 +33,11 @@ extension UserResponse {
             public var name: String?
             public var username: String?
             public var email: String?
+            public var phone: String?
             public var address: Address?
             
             private enum CodingKeys: String, CodingKey {
-                case id, name, username, email, address
+                case id, name, username, email, phone, address
             }
             
             required public init(from decoder: Decoder) throws {
@@ -45,11 +46,12 @@ extension UserResponse {
                 self.name = try container.decodeIfPresent(String.self, forKey: .name)
                 self.username = try container.decodeIfPresent(String.self, forKey: .username)
                 self.email = try container.decodeIfPresent(String.self, forKey: .email)
+                self.phone = try container.decodeIfPresent(String.self, forKey: .phone)
                 self.address = try container.decodeIfPresent(Address.self, forKey: .address)
             }
             
             public func mapper() -> UserModel.GetUsers.User {
-                return UserModel.GetUsers.User.init(id: self.id ?? 0, name: self.name ?? "", username: self.username ?? "", email: self.email ?? "", address: self.address?.mapper() ?? nil)
+                return UserModel.GetUsers.User.init(id: self.id ?? 0, name: self.name ?? "", username: self.username ?? "", email: self.email ?? "", phone: self.phone ?? "", address: self.address?.mapper() ?? nil)
             }
             
             public class Address: Decodable {

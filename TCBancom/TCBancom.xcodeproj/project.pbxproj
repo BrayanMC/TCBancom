@@ -59,6 +59,9 @@
 		35D255FC2A77C9B200C07E2F /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35D255FA2A77C9B200C07E2F /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35D255FE2A77CA2A00C07E2F /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D255FD2A77CA2A00C07E2F /* Data.framework */; };
 		35D255FF2A77CA2A00C07E2F /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35D255FD2A77CA2A00C07E2F /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35D2560C2A77EF0200C07E2F /* UserSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D2560B2A77EF0200C07E2F /* UserSection.swift */; };
+		35D2560D2A77EF0200C07E2F /* UserSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D2560B2A77EF0200C07E2F /* UserSection.swift */; };
+		35D2560E2A77EF0200C07E2F /* UserSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D2560B2A77EF0200C07E2F /* UserSection.swift */; };
 		35D4D2C52A77653500D66299 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C42A77653500D66299 /* UIComponents.framework */; };
 		35D4D2C62A77653500D66299 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C42A77653500D66299 /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35D4D2C82A77665700D66299 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4D2C72A77665700D66299 /* Common.framework */; };
@@ -213,6 +216,7 @@
 		35D2556F2A77B3DE00C07E2F /* animation_lkqnqixy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_lkqnqixy.json; sourceTree = "<group>"; };
 		35D255FA2A77C9B200C07E2F /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D255FD2A77CA2A00C07E2F /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D2560B2A77EF0200C07E2F /* UserSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSection.swift; sourceTree = "<group>"; };
 		35D4D2C42A77653500D66299 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D4D2C72A77665700D66299 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
@@ -321,6 +325,7 @@
 			children = (
 				35AFF0482A779D960098E8E5 /* UserViewCell.xib */,
 				35AFF04C2A779DB60098E8E5 /* UserViewCell.swift */,
+				35D2560B2A77EF0200C07E2F /* UserSection.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -861,6 +866,7 @@
 				35DCD79D2A735A26000C0F7F /* SplashViewController.swift in Sources */,
 				35DCD7AE2A735D02000C0F7F /* SplashRouter.swift in Sources */,
 				35AFF02E2A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */,
+				35D2560C2A77EF0200C07E2F /* UserSection.swift in Sources */,
 				35DCD7B22A735D23000C0F7F /* SplashPresenter.swift in Sources */,
 				35CD62722A76DE3500232CF8 /* LogInRouter.swift in Sources */,
 				35DCD7A22A735B3F000C0F7F /* BaseViewController.swift in Sources */,
@@ -883,6 +889,7 @@
 				35DCD7B72A735DB9000C0F7F /* SplashScreenAssembly.swift in Sources */,
 				35DCD7AB2A735CE3000C0F7F /* AppViewController.swift in Sources */,
 				35CD62732A76DE3500232CF8 /* LogInRouter.swift in Sources */,
+				35D2560D2A77EF0200C07E2F /* UserSection.swift in Sources */,
 				35DCD7B32A735D23000C0F7F /* SplashPresenter.swift in Sources */,
 				35AFF02F2A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */,
 				35DCD7AF2A735D02000C0F7F /* SplashRouter.swift in Sources */,
@@ -916,6 +923,7 @@
 				35DCD79F2A735A26000C0F7F /* SplashViewController.swift in Sources */,
 				35DCD7B02A735D02000C0F7F /* SplashRouter.swift in Sources */,
 				35AFF0302A778EFF0098E8E5 /* UIApplication+Extensions.swift in Sources */,
+				35D2560E2A77EF0200C07E2F /* UserSection.swift in Sources */,
 				35DCD7B42A735D23000C0F7F /* SplashPresenter.swift in Sources */,
 				35CD62742A76DE3500232CF8 /* LogInRouter.swift in Sources */,
 				35DCD7A42A735B3F000C0F7F /* BaseViewController.swift in Sources */,
