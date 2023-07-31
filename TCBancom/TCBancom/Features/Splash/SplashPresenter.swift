@@ -6,6 +6,7 @@
 //
 
 protocol SplashPresenterProtocol: AnyObject {
+    func goToLogIn()
 }
 
 class SplashPresenter {
@@ -21,5 +22,8 @@ class SplashPresenter {
 
 extension SplashPresenter: SplashPresenterProtocol {
     
+    func goToLogIn() {
+        self.router.routeToLogIn()
+    }
 }
 

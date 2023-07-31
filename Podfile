@@ -16,6 +16,10 @@ end
 def commonpods
 end
 
+def shareduicomponentspods
+  pod 'ProgressHUD'
+end
+
 # Pods for UIComponents
 def uicomponentspods
 end
@@ -26,6 +30,7 @@ target 'TCBancom' do project 'TCBancom/TCBancom.xcodeproj'
   # Pods for TCBancom
   use_frameworks!
   tcbancompods
+  shareduicomponentspods
 
   target 'TCBancomTests' do
     inherit! :search_paths
@@ -40,7 +45,7 @@ end
 
 target 'UIComponents' do project 'UIComponents/UIComponents.xcodeproj'
   use_frameworks!
-  uicomponentspods
+  shareduicomponentspods
   
 end
 

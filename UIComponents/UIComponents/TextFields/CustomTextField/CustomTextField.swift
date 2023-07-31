@@ -21,7 +21,7 @@ public class CustomTextField: UIView {
         
     private var isValid: Bool = false
     private var textFieldType: TextFieldType = .Default
-    private var id: String = ""
+    private var id: Int? = nil
     private var maxCharactersDefault = 0
     private var isEmojiAllowed: Bool = false
     private var inlineValidation: Bool = false
@@ -160,13 +160,11 @@ public class CustomTextField: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
         self.config()
     }
 
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        
         self.config()
     }
 
@@ -198,7 +196,7 @@ public class CustomTextField: UIView {
         keyboardType: KeyboardType = .Default,
         textFieldType: TextFieldType = .Default,
         isEmojiAllowed: Bool = false,
-        id: String = ""
+        id: Int? = nil
     ) {
         self.init(frame: .zero)
         self.displayView(
@@ -253,7 +251,7 @@ public class CustomTextField: UIView {
         keyboardType: KeyboardType = .Default,
         textFieldType: TextFieldType = .Default,
         isEmojiAllowed: Bool = false,
-        id: String = ""
+        id: Int? = nil
     ) {
         self.toolTipDelegate = toolTipDelegate
         self.validDelegate = validDelegate
@@ -380,8 +378,8 @@ public class CustomTextField: UIView {
         self.hasError = false
     }
     
-    public func getId() -> String {
-        return self.id
+    public func getId() -> Int {
+        return self.id ?? 0
     }
     
     public func setMaxCharacters(max: Int) {
@@ -471,6 +469,6 @@ extension CustomTextField: UITextFieldDelegate {
     }
     
     @objc func textFieldDidChange(_ textField: UITextField) {
-        self.validDelegate?.returnValue(valueReal: textField.text!, id: self.id)
+        self.validDelegate?.returnValue(valueReal: textField.text!, id: self.id ?? 0)
     }
 }

@@ -21,4 +21,5 @@ public final class ColorManager {
     public var accent100: UIColor = UIColor(named: "Accent100", in: Bundle.main, compatibleWith: nil) ?? .clear
     public var accent110: UIColor = UIColor(named: "Accent110", in: Bundle.main, compatibleWith: nil) ?? .clear
     public var red100: UIColor = UIColor(named: "Red100", in: Bundle.main, compatibleWith: nil) ?? .clear
+    public var purple100: UIColor = UIColor(named: "Purple100", in: Bundle.main, compatibleWith: nil) ?? .clear
 }
