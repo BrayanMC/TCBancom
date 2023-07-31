@@ -19,8 +19,10 @@
 		35CD627E2A76DE7100232CF8 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CD627D2A76DE7100232CF8 /* LogInViewController.xib */; };
 		35CD627F2A76DE7100232CF8 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CD627D2A76DE7100232CF8 /* LogInViewController.xib */; };
 		35CD62802A76DE7100232CF8 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CD627D2A76DE7100232CF8 /* LogInViewController.xib */; };
-		35CD62D32A772C5900232CF8 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD62D22A772C5900232CF8 /* UIComponents.framework */; };
-		35CD62D42A772C5900232CF8 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD62D22A772C5900232CF8 /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35CD63962A77422C00232CF8 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63952A77422C00232CF8 /* Common.framework */; };
+		35CD63972A77422C00232CF8 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63952A77422C00232CF8 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35CD63CD2A77427400232CF8 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63CC2A77427400232CF8 /* UIComponents.framework */; };
+		35CD63CE2A77427400232CF8 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63CC2A77427400232CF8 /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35DCD7632A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */; };
 		35DCD7642A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */; };
 		35DCD7652A734B2E000C0F7F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */; };
@@ -132,13 +134,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		35CD62D52A772C5900232CF8 /* Embed Frameworks */ = {
+		35CD63982A77422C00232CF8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				35CD62D42A772C5900232CF8 /* UIComponents.framework in Embed Frameworks */,
+				35CD63CE2A77427400232CF8 /* UIComponents.framework in Embed Frameworks */,
+				35CD63972A77422C00232CF8 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +155,8 @@
 		35CD62792A76DE5900232CF8 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		35CD627D2A76DE7100232CF8 /* LogInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
 		35CD62D22A772C5900232CF8 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CD63952A77422C00232CF8 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CD63CC2A77427400232CF8 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DCD7532A734B2E000C0F7F /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
 		35DCD7542A734B2E000C0F7F /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		35DCD7552A734B2E000C0F7F /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -205,8 +210,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35CD62D32A772C5900232CF8 /* UIComponents.framework in Frameworks */,
 				BB08A55A7B975F7E5BF5E3D7 /* Pods_TCBancom.framework in Frameworks */,
+				35CD63CD2A77427400232CF8 /* UIComponents.framework in Frameworks */,
+				35CD63962A77422C00232CF8 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +400,8 @@
 		B2D0AF334C617024D93C4023 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35CD63CC2A77427400232CF8 /* UIComponents.framework */,
+				35CD63952A77422C00232CF8 /* Common.framework */,
 				35CD62D22A772C5900232CF8 /* UIComponents.framework */,
 				3E739B7C53A67112A645DD5D /* Pods_TCBancom.framework */,
 				ED7FF6FD6B471B8D1C7A117C /* Pods_TCBancom_TCBancomUITests.framework */,
@@ -427,7 +435,7 @@
 				35F529F92A733FE000AEB98D /* Sources */,
 				35F529FA2A733FE000AEB98D /* Frameworks */,
 				35F529FB2A733FE000AEB98D /* Resources */,
-				35CD62D52A772C5900232CF8 /* Embed Frameworks */,
+				35CD63982A77422C00232CF8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
