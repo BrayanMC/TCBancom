@@ -34,6 +34,8 @@
 		35CD63942A77421000232CF8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63842A77421000232CF8 /* Fonts.swift */; };
 		35D255F82A77C5AA00C07E2F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D255F72A77C5AA00C07E2F /* UIViewController+Extensions.swift */; };
 		35D255F92A77C5AA00C07E2F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D255F72A77C5AA00C07E2F /* UIViewController+Extensions.swift */; };
+		35D256092A77D4D800C07E2F /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D256082A77D4D800C07E2F /* UserDefaults+Extensions.swift */; };
+		35D2560A2A77D4D800C07E2F /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D256082A77D4D800C07E2F /* UserDefaults+Extensions.swift */; };
 		35D4D2B92A77500100D66299 /* ValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2B82A77500100D66299 /* ValidationUtil.swift */; };
 		35D4D2BA2A77500100D66299 /* ValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2B82A77500100D66299 /* ValidationUtil.swift */; };
 		35D4D2BC2A7752B900D66299 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2BB2A7752B800D66299 /* String+Extensions.swift */; };
@@ -70,6 +72,7 @@
 		35CD63822A77421000232CF8 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		35CD63842A77421000232CF8 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		35D255F72A77C5AA00C07E2F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		35D256082A77D4D800C07E2F /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		35D4D2B82A77500100D66299 /* ValidationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtil.swift; sourceTree = "<group>"; };
 		35D4D2BB2A7752B800D66299 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		35D4D2C12A77540E00D66299 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
@@ -169,6 +172,7 @@
 				35AFF0292A778D9A0098E8E5 /* Notification+Extensions.swift */,
 				35AFF0512A77A0410098E8E5 /* UITableView+Extensions.swift */,
 				35D255F72A77C5AA00C07E2F /* UIViewController+Extensions.swift */,
+				35D256082A77D4D800C07E2F /* UserDefaults+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -344,6 +348,7 @@
 				35D255F82A77C5AA00C07E2F /* UIViewController+Extensions.swift in Sources */,
 				35CD63912A77421000232CF8 /* Protocols.swift in Sources */,
 				35D4D2B92A77500100D66299 /* ValidationUtil.swift in Sources */,
+				35D256092A77D4D800C07E2F /* UserDefaults+Extensions.swift in Sources */,
 				35AFF0232A7789D80098E8E5 /* UITapGestureRecognizer+Extensions.swift in Sources */,
 				35CD638D2A77421000232CF8 /* UIView+Extensions.swift in Sources */,
 				35CD63852A77421000232CF8 /* Constants.swift in Sources */,
@@ -357,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35AFF0532A77A0410098E8E5 /* UITableView+Extensions.swift in Sources */,
+				35D2560A2A77D4D800C07E2F /* UserDefaults+Extensions.swift in Sources */,
 				35CD638E2A77421000232CF8 /* UIView+Extensions.swift in Sources */,
 				35D4D2BD2A7752B900D66299 /* String+Extensions.swift in Sources */,
 				35AFF0242A7789D80098E8E5 /* UITapGestureRecognizer+Extensions.swift in Sources */,

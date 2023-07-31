@@ -51,10 +51,6 @@ public class CheckButton: UIButton {
     }
 
     public func getIsChecked() -> Bool {
-        return !self.isChecked
-    }
-
-    public func getIsCheckedAfter() -> Bool {
         return self.isChecked
     }
     

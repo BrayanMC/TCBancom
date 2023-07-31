@@ -6,11 +6,13 @@
 //
 
 import Common
+import Data
 
 protocol LogInPresenterProtocol: AnyObject {
     func validateEmail(email: String, id: Int)
     func validatePassword(password: String, id: Int)
     func goToPosts()
+    func validateIsEmailIsInKeychain()
 }
 
 class LogInPresenter {
@@ -25,6 +27,12 @@ class LogInPresenter {
 }
 
 extension LogInPresenter: LogInPresenterProtocol {
+    
+    func validateIsEmailIsInKeychain() {
+        if (UserDefaults.standard.getSaveEmailValue()) {
+            self.view.showEmailFromKeychain(email: UserCredentials.shared.email ?? "")
+        }
+    }
     
     func validateEmail(email: String, id: Int) {
         if (email.isBlank) {
@@ -57,6 +65,13 @@ extension LogInPresenter: LogInPresenterProtocol {
     func goToPosts() {
         self.view.startLoading()
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            if (self.view.saveEmailIsChecked()) {
+                UserCredentials.shared.email = self.view.getEmail()
+                UserDefaults.standard.setSaveEmailValue(value: true)
+            } else {
+                UserCredentials.shared.email = ""
+                UserDefaults.standard.setSaveEmailValue(value: false)
+            }
             self.view.finishedLoading()
             self.router.routeToPosts()
         }
