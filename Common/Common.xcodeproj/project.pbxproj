@@ -11,6 +11,8 @@
 		35AFF0242A7789D80098E8E5 /* UITapGestureRecognizer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0222A7789D80098E8E5 /* UITapGestureRecognizer+Extensions.swift */; };
 		35AFF02A2A778D9A0098E8E5 /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0292A778D9A0098E8E5 /* Notification+Extensions.swift */; };
 		35AFF02B2A778D9A0098E8E5 /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0292A778D9A0098E8E5 /* Notification+Extensions.swift */; };
+		35AFF0522A77A0410098E8E5 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0512A77A0410098E8E5 /* UITableView+Extensions.swift */; };
+		35AFF0532A77A0410098E8E5 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0512A77A0410098E8E5 /* UITableView+Extensions.swift */; };
 		35CD636A2A7741E000232CF8 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63612A7741DF00232CF8 /* Common.framework */; };
 		35CD636F2A7741E000232CF8 /* CommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD636E2A7741E000232CF8 /* CommonTests.swift */; };
 		35CD63702A7741E000232CF8 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 35CD63642A7741DF00232CF8 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +32,8 @@
 		35CD63922A77421000232CF8 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63822A77421000232CF8 /* Protocols.swift */; };
 		35CD63932A77421000232CF8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63842A77421000232CF8 /* Fonts.swift */; };
 		35CD63942A77421000232CF8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63842A77421000232CF8 /* Fonts.swift */; };
+		35D255F82A77C5AA00C07E2F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D255F72A77C5AA00C07E2F /* UIViewController+Extensions.swift */; };
+		35D255F92A77C5AA00C07E2F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D255F72A77C5AA00C07E2F /* UIViewController+Extensions.swift */; };
 		35D4D2B92A77500100D66299 /* ValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2B82A77500100D66299 /* ValidationUtil.swift */; };
 		35D4D2BA2A77500100D66299 /* ValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2B82A77500100D66299 /* ValidationUtil.swift */; };
 		35D4D2BC2A7752B900D66299 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4D2BB2A7752B800D66299 /* String+Extensions.swift */; };
@@ -52,6 +56,7 @@
 /* Begin PBXFileReference section */
 		35AFF0222A7789D80098E8E5 /* UITapGestureRecognizer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+Extensions.swift"; sourceTree = "<group>"; };
 		35AFF0292A778D9A0098E8E5 /* Notification+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
+		35AFF0512A77A0410098E8E5 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		35CD63612A7741DF00232CF8 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CD63642A7741DF00232CF8 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		35CD63692A7741E000232CF8 /* CommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +69,7 @@
 		35CD63812A77421000232CF8 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		35CD63822A77421000232CF8 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		35CD63842A77421000232CF8 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		35D255F72A77C5AA00C07E2F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		35D4D2B82A77500100D66299 /* ValidationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtil.swift; sourceTree = "<group>"; };
 		35D4D2BB2A7752B800D66299 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		35D4D2C12A77540E00D66299 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
@@ -161,6 +167,8 @@
 				35D4D2C12A77540E00D66299 /* UITextField+Extensions.swift */,
 				35AFF0222A7789D80098E8E5 /* UITapGestureRecognizer+Extensions.swift */,
 				35AFF0292A778D9A0098E8E5 /* Notification+Extensions.swift */,
+				35AFF0512A77A0410098E8E5 /* UITableView+Extensions.swift */,
+				35D255F72A77C5AA00C07E2F /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -327,11 +335,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D4D2C22A77540E00D66299 /* UITextField+Extensions.swift in Sources */,
+				35AFF0522A77A0410098E8E5 /* UITableView+Extensions.swift in Sources */,
 				35D4D2BC2A7752B900D66299 /* String+Extensions.swift in Sources */,
 				35AFF02A2A778D9A0098E8E5 /* Notification+Extensions.swift in Sources */,
 				35CD63932A77421000232CF8 /* Fonts.swift in Sources */,
 				35CD63892A77421000232CF8 /* ColorManager.swift in Sources */,
 				35CD638B2A77421000232CF8 /* UIButton+Extensions.swift in Sources */,
+				35D255F82A77C5AA00C07E2F /* UIViewController+Extensions.swift in Sources */,
 				35CD63912A77421000232CF8 /* Protocols.swift in Sources */,
 				35D4D2B92A77500100D66299 /* ValidationUtil.swift in Sources */,
 				35AFF0232A7789D80098E8E5 /* UITapGestureRecognizer+Extensions.swift in Sources */,
@@ -346,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AFF0532A77A0410098E8E5 /* UITableView+Extensions.swift in Sources */,
 				35CD638E2A77421000232CF8 /* UIView+Extensions.swift in Sources */,
 				35D4D2BD2A7752B900D66299 /* String+Extensions.swift in Sources */,
 				35AFF0242A7789D80098E8E5 /* UITapGestureRecognizer+Extensions.swift in Sources */,
@@ -357,6 +368,7 @@
 				35CD638A2A77421000232CF8 /* ColorManager.swift in Sources */,
 				35CD63902A77421000232CF8 /* UIFont+Extensions.swift in Sources */,
 				35AFF02B2A778D9A0098E8E5 /* Notification+Extensions.swift in Sources */,
+				35D255F92A77C5AA00C07E2F /* UIViewController+Extensions.swift in Sources */,
 				35D4D2C32A77540E00D66299 /* UITextField+Extensions.swift in Sources */,
 				35CD63942A77421000232CF8 /* Fonts.swift in Sources */,
 				35CD63922A77421000232CF8 /* Protocols.swift in Sources */,
@@ -508,7 +520,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +555,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

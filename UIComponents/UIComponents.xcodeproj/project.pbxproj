@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		35AFF0202A7784A00098E8E5 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF01F2A7784A00098E8E5 /* ProgressView.swift */; };
 		35AFF0212A7784A00098E8E5 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF01F2A7784A00098E8E5 /* ProgressView.swift */; };
+		35AFF0452A779BC10098E8E5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0442A779BC10098E8E5 /* UIView+Extensions.swift */; };
+		35AFF0462A779BC10098E8E5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF0442A779BC10098E8E5 /* UIView+Extensions.swift */; };
 		35CD63AC2A77424500232CF8 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CD63A32A77424500232CF8 /* UIComponents.framework */; };
 		35CD63B12A77424500232CF8 /* UIComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD63B02A77424500232CF8 /* UIComponentsTests.swift */; };
 		35CD63B22A77424500232CF8 /* UIComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 35CD63A62A77424500232CF8 /* UIComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		35AFF01F2A7784A00098E8E5 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		35AFF0442A779BC10098E8E5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		35CD63A32A77424500232CF8 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CD63A62A77424500232CF8 /* UIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIComponents.h; sourceTree = "<group>"; };
 		35CD63AB2A77424500232CF8 /* UIComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +101,22 @@
 			path = Loaders;
 			sourceTree = "<group>";
 		};
+		35AFF0422A779BAD0098E8E5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				35AFF0432A779BB50098E8E5 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		35AFF0432A779BB50098E8E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35AFF0442A779BC10098E8E5 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		35CD63992A77424500232CF8 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +140,7 @@
 		35CD63A52A77424500232CF8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				35AFF0422A779BAD0098E8E5 /* Utils */,
 				35AFF01E2A7784900098E8E5 /* Loaders */,
 				35CD63BB2A77425C00232CF8 /* Buttons */,
 				35CD63C22A77425C00232CF8 /* TextFields */,
@@ -352,6 +372,7 @@
 				35AFF0202A7784A00098E8E5 /* ProgressView.swift in Sources */,
 				35D4D2AD2A77472300D66299 /* CustomTextFieldProtocols.swift in Sources */,
 				35D4D2AA2A77471500D66299 /* CustomTextField.swift in Sources */,
+				35AFF0452A779BC10098E8E5 /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +386,7 @@
 				35CD63C72A77425C00232CF8 /* CheckButton.swift in Sources */,
 				35D4D2AB2A77471500D66299 /* CustomTextField.swift in Sources */,
 				35CD63C52A77425C00232CF8 /* CheckButtonCodes.swift in Sources */,
+				35AFF0462A779BC10098E8E5 /* UIView+Extensions.swift in Sources */,
 				35D4D2C02A7753AC00D66299 /* KeyboardType.swift in Sources */,
 				35D4D2AE2A77472300D66299 /* CustomTextFieldProtocols.swift in Sources */,
 				35CD63C92A77425C00232CF8 /* CustomButtonCodes.swift in Sources */,
@@ -518,7 +540,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -553,7 +575,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

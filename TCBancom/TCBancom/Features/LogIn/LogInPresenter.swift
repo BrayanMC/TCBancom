@@ -10,6 +10,7 @@ import Common
 protocol LogInPresenterProtocol: AnyObject {
     func validateEmail(email: String, id: Int)
     func validatePassword(password: String, id: Int)
+    func goToPosts()
 }
 
 class LogInPresenter {
@@ -51,5 +52,13 @@ extension LogInPresenter: LogInPresenterProtocol {
         }
         
         self.view.hideError(fieldId: id)
+    }
+    
+    func goToPosts() {
+        self.view.startLoading()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            self.view.finishedLoading()
+            self.router.routeToPosts()
+        }
     }
 }

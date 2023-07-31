@@ -12,6 +12,12 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if (self is UsersViewController) {
+            self.registerObserverLogOut()
+        } else if (self is SplashViewController || self is LogInViewController) {
+            self.unregisterObserverLogOut()
+        }
     }
     
     func registerObserverLogOut() {
