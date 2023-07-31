@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="KgJ-rE-ryy" customClass="PostViewCell" customModule="TCBancom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KgJ-rE-ryy" id="GA7-c3-cJL">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victoria Lane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVy-Nh-tw1">
+                        <rect key="frame" x="16" y="12" width="358" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="3wS-MR-0w6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="16"/>
+                        <color key="textColor" name="Gray100"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victoria Lane" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0z-Mx-yt9">
+                        <rect key="frame" x="16" y="36" width="358" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="0VH-O6-aBs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="12"/>
+                        <color key="textColor" name="Gray100"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="h0z-Mx-yt9" secondAttribute="bottom" constant="12" id="4lX-o5-DPr"/>
+                    <constraint firstItem="h0z-Mx-yt9" firstAttribute="leading" secondItem="WVy-Nh-tw1" secondAttribute="leading" id="AuK-PR-8j8"/>
+                    <constraint firstItem="h0z-Mx-yt9" firstAttribute="trailing" secondItem="WVy-Nh-tw1" secondAttribute="trailing" id="JOl-r0-u7h"/>
+                    <constraint firstItem="WVy-Nh-tw1" firstAttribute="leading" secondItem="GA7-c3-cJL" secondAttribute="leading" constant="16" id="On7-ba-NU7"/>
+                    <constraint firstItem="h0z-Mx-yt9" firstAttribute="top" secondItem="WVy-Nh-tw1" secondAttribute="bottom" constant="8" id="icF-5g-LPO"/>
+                    <constraint firstAttribute="trailing" secondItem="WVy-Nh-tw1" secondAttribute="trailing" constant="16" id="luc-Tk-9Tc"/>
+                    <constraint firstItem="WVy-Nh-tw1" firstAttribute="top" secondItem="GA7-c3-cJL" secondAttribute="top" constant="12" id="vbt-X6-BYx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bodyLabel" destination="h0z-Mx-yt9" id="5dO-WW-eOl"/>
+                <outlet property="titleLabel" destination="WVy-Nh-tw1" id="e6S-xP-Ygd"/>
+                <outlet property="transactionTypeLabel" destination="WVy-Nh-tw1" id="SuD-DM-UPX"/>
+            </connections>
+            <point key="canvasLocation" x="130.76923076923077" y="-11.374407582938389"/>
+        </tableViewCell>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+    <resources>
+        <namedColor name="Gray100">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

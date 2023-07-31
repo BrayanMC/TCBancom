@@ -8,6 +8,7 @@
 import UIKit
 
 protocol LogInRouterProtocol: AnyObject {
+    func routeToPosts()
 }
 
 class LogInRouter {
@@ -24,4 +25,9 @@ class LogInRouter {
 }
 
 extension LogInRouter: LogInRouterProtocol {
+    
+    func routeToPosts() {
+        let vc = UsersRouter(navigation: self.navigation).getViewController()
+        self.navigation.setViewControllers([vc], animated: true)
+    }
 }

@@ -62,7 +62,7 @@ class LogInViewController: BaseViewController {
         self.presenter?.validatePassword(password: password, id: self.passwordCustomTextField.getId())
         
         if (!self.passwordCustomTextField.hasError && !self.emailCustomTextField.hasError) {
-            
+            self.presenter?.goToPosts()
         }
     }
     
@@ -70,6 +70,7 @@ class LogInViewController: BaseViewController {
         guard let text = self.forgotMyPasswordLabel.text else { return }
         let range = (text as NSString).range(of: text)
         if gesture.didTapAttributedTextInLabel(label: self.forgotMyPasswordLabel, inRange: range) {
+            // empty ;(
         }
     }
     
@@ -90,6 +91,9 @@ extension LogInViewController: LogInViewControllerProtocol {
     
     func showError(message: String, fieldId: Int) {
         switch fieldId {
+        case self.emailCustomTextField.getId():
+            self.emailCustomTextField.hasError = true
+            self.emailCustomTextField.errorText = message
         case self.passwordCustomTextField.getId():
             self.passwordCustomTextField.hasError = true
             self.passwordCustomTextField.errorText = message
@@ -100,6 +104,8 @@ extension LogInViewController: LogInViewControllerProtocol {
     
     func hideError(fieldId: Int) {
         switch fieldId {
+        case self.emailCustomTextField.getId():
+            self.emailCustomTextField.cleanError()
         case self.passwordCustomTextField.getId():
             self.passwordCustomTextField.cleanError()
         default:

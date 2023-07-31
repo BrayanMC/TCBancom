@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="z2w-NV-Kvi" customClass="UserViewCell" customModule="TCBancom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z2w-NV-Kvi" id="FiY-xe-pRo">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victoria Lane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxw-V7-RW5">
+                        <rect key="frame" x="0.0" y="28" width="242" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="89U-5r-NQL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="16"/>
+                        <color key="textColor" name="Gray100"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v07-dz-p9e">
+                        <rect key="frame" x="242" y="25" width="90" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="Ezf-YD-OUg"/>
+                            <constraint firstAttribute="width" constant="90" id="iWd-cA-OoU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                        <state key="normal" title="Crear un post">
+                            <color key="titleColor" name="Purple100"/>
+                        </state>
+                        <connections>
+                            <action selector="createPostButtonTapped:" destination="z2w-NV-Kvi" eventType="touchUpInside" id="s3P-KL-40M"/>
+                            <action selector="didTapLinkButton:" destination="-2" eventType="touchUpInside" id="WfI-qY-zFO"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJ9-oF-yAM">
+                        <rect key="frame" x="332" y="0.0" width="58" height="72"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-arrow-down" translatesAutoresizingMaskIntoConstraints="NO" id="ytm-Bn-zvp">
+                                <rect key="frame" x="16" y="23" width="26" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="26" id="Z4K-Uv-2Nh"/>
+                                    <constraint firstAttribute="height" constant="26" id="xBy-Hb-6g2"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnL-lU-LXi">
+                                <rect key="frame" x="0.0" y="0.0" width="58" height="72"/>
+                                <connections>
+                                    <action selector="didTapActionButton:" destination="-2" eventType="touchUpInside" id="WK4-KP-ps2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="GnL-lU-LXi" secondAttribute="trailing" id="KK9-ho-t7k"/>
+                            <constraint firstItem="ytm-Bn-zvp" firstAttribute="centerY" secondItem="EJ9-oF-yAM" secondAttribute="centerY" id="bTc-RB-mrd"/>
+                            <constraint firstAttribute="width" constant="58" id="e97-py-ulA"/>
+                            <constraint firstAttribute="bottom" secondItem="GnL-lU-LXi" secondAttribute="bottom" id="ffb-yl-77Z"/>
+                            <constraint firstItem="GnL-lU-LXi" firstAttribute="top" secondItem="EJ9-oF-yAM" secondAttribute="top" id="oGd-tb-Bjy"/>
+                            <constraint firstItem="GnL-lU-LXi" firstAttribute="leading" secondItem="EJ9-oF-yAM" secondAttribute="leading" id="rY0-I2-Y3z"/>
+                            <constraint firstItem="ytm-Bn-zvp" firstAttribute="centerX" secondItem="EJ9-oF-yAM" secondAttribute="centerX" id="uwp-hJ-4FR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="EJ9-oF-yAM" secondAttribute="trailing" id="E5f-AM-Ncr"/>
+                    <constraint firstItem="wxw-V7-RW5" firstAttribute="centerY" secondItem="FiY-xe-pRo" secondAttribute="centerY" id="Gwc-c4-Aku"/>
+                    <constraint firstItem="v07-dz-p9e" firstAttribute="centerY" secondItem="FiY-xe-pRo" secondAttribute="centerY" id="RRV-sj-8vB"/>
+                    <constraint firstItem="wxw-V7-RW5" firstAttribute="leading" secondItem="FiY-xe-pRo" secondAttribute="leading" id="Sv7-FY-gYS"/>
+                    <constraint firstItem="EJ9-oF-yAM" firstAttribute="leading" secondItem="v07-dz-p9e" secondAttribute="trailing" id="mqx-aa-KJg"/>
+                    <constraint firstItem="v07-dz-p9e" firstAttribute="leading" secondItem="wxw-V7-RW5" secondAttribute="trailing" id="odm-wP-eL1"/>
+                    <constraint firstItem="EJ9-oF-yAM" firstAttribute="top" secondItem="FiY-xe-pRo" secondAttribute="top" id="rqM-hC-Gye"/>
+                    <constraint firstAttribute="bottom" secondItem="EJ9-oF-yAM" secondAttribute="bottom" id="w43-7N-roT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="arrowImageView" destination="EJ9-oF-yAM" id="yMZ-vE-Umo"/>
+                <outlet property="createPostButton" destination="v07-dz-p9e" id="EcT-8o-Wh5"/>
+                <outlet property="nameLabel" destination="wxw-V7-RW5" id="oxb-HD-7b8"/>
+            </connections>
+            <point key="canvasLocation" x="130.76923076923077" y="-11.374407582938389"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic-arrow-down" width="24" height="24"/>
+        <namedColor name="Gray100">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Purple100">
+            <color red="0.48600000143051147" green="0.22699999809265137" blue="0.92900002002716064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
